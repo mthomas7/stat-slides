@@ -25,3 +25,14 @@ incremental:true
 * The great debate - design an experiment! What questions could we answer?
 * How could we analyze our experiment? What would be good enough?
 * Reading: How a tea party...
+
+A Typical State
+===
+Look at the number of death penalty cases - what is typical?
+
+Kidney Cancer Rates
+===
+
+Handedness
+===
+
