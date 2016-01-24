@@ -1,7 +1,7 @@
 Math 144: Business Stats: Introduction
 ========================================================
 author: 
-date: Jan, 25, 2016
+date: Jan 25, 2016
 
 Logistics
 ===
