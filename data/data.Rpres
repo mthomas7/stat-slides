@@ -265,6 +265,12 @@ Which hospital would you go to?
 
 Sampling
 ===
+Sampling techniques:
+* Simple random sampling
+* Stratified sampling
+* Cluster sampling
+* Multistage sampling
+
 When might you use each?
 
 
