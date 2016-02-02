@@ -19,6 +19,7 @@ incremental:false
 
 Cases vs variables
 ========================================================
+incremental:false
 Suppose you are conducting a test on a webpage redesign. You create two versions, randomly showing the different versions to different people. You measure how much time each person spends on the page, how many links they click on, and their operating system.
 
 What are the:
