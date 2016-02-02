@@ -7,7 +7,7 @@ Update
 ===
 incremental:false
 * Lab 1 tomorrow
-* Read rest of ch 1 for tomorrow
+* Read 1.4-1.7, ch 1, for tomorrow
 * HW 1 due Friday
 
 
