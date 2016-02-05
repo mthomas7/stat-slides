@@ -125,13 +125,13 @@ incremental:false
 
 Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **parameter** is:
 
-The average height of the 150 student
+A. The average height of the 150 student
 
-The average height of all IC students
+B. The average height of all IC students
 
-The 150 students that were measured
+C. The 150 students that were measured
 
-All IC students
+D. All IC students
 
 PPSS
 ===
@@ -139,13 +139,13 @@ incremental:false
 
 Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **statistic** is:
 
-The average height of the 150 student
+A. The average height of the 150 student
 
-The average height of all IC students
+B. The average height of all IC students
 
-The 150 students that were measured
+C. The 150 students that were measured
 
-All IC students
+D. All IC students
 
 PPSS
 ===
@@ -153,13 +153,13 @@ incremental:false
 
 Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **population** is:
 
-The average height of the 150 student
+A. The average height of the 150 student
 
-The average height of all IC students
+B. The average height of all IC students
 
-The 150 students that were measured
+C. The 150 students that were measured
 
-All IC students
+D. All IC students
 
 PPSS
 ===
@@ -167,13 +167,13 @@ incremental:false
 
 Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **sample** is:
 
-The average height of the 150 student
+A. The average height of the 150 student
 
-The average height of all IC students
+B. The average height of all IC students
 
-The 150 students that were measured
+C. The 150 students that were measured
 
-All IC students
+D. All IC students
 
 Returning to the decks of cards
 ===
@@ -273,6 +273,29 @@ Sampling techniques:
 
 When might you use each?
 
+An Example
+===
+You want to know the caloric intake of MLB players. You survey 3 players from each team. This is:
 
+A. Simple random sampling
+B. Stratified sampling
+C. Cluster sampling
+D. Multistage sampling
 
+An Example
+===
+You want to know the caloric intake of MLB players. You survey 2 entire teams. This is:
 
+A. Simple random sampling
+B. Stratified sampling
+C. Cluster sampling
+D. Multistage sampling
+
+An Example
+===
+You want to know the caloric intake of MLB players. You survey 3 players from each of 7 randomly chosen team. This is:
+
+A. Simple random sampling
+B. Stratified sampling
+C. Cluster sampling
+D. Multistage sampling
