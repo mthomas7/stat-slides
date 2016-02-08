@@ -237,8 +237,11 @@ Association vs causation
 What's the difference?
 
 * Ice cream sales and shark attacks
+
 * Children with larger shoe sizes read better
+
 * Countries with more TV sets per person have longer life expectancy
+
 * Study time and test scores
 
 Another example
@@ -275,27 +278,80 @@ When might you use each?
 
 An Example
 ===
+incremental:false
 You want to know the caloric intake of MLB players. You survey 3 players from each team. This is:
 
 A. Simple random sampling
+
 B. Stratified sampling
+
 C. Cluster sampling
+
 D. Multistage sampling
 
 An Example
 ===
+incremental:false
 You want to know the caloric intake of MLB players. You survey 2 entire teams. This is:
 
 A. Simple random sampling
+
 B. Stratified sampling
+
 C. Cluster sampling
+
 D. Multistage sampling
 
 An Example
 ===
+incremental:false
 You want to know the caloric intake of MLB players. You survey 3 players from each of 7 randomly chosen team. This is:
 
 A. Simple random sampling
+
 B. Stratified sampling
+
 C. Cluster sampling
+
 D. Multistage sampling
+
+Means
+===
+For what kind of data?
+
+How do we compute?
+
+Histograms
+===
+What kind of data?
+
+Skew
+===
+What does skew measure?
+
+Mode
+===
+What does it measure?
+
+Median
+===
+What does is measure?
+
+Standard deviation vs IQR
+===
+How are each computed?
+
+Making box plots
+===
+What kind of information does this display?
+
+Sensitivity
+===
+Which of the statistics are sensitive vs robust?
+
+How can we tell?
+
+Comparing
+===
+When might we use one versus another?
+
