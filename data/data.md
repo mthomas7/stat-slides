@@ -237,11 +237,8 @@ Association vs causation
 What's the difference?
 
 * Ice cream sales and shark attacks
-
 * Children with larger shoe sizes read better
-
 * Countries with more TV sets per person have longer life expectancy
-
 * Study time and test scores
 
 Another example
@@ -337,13 +334,23 @@ Median
 ===
 What does is measure?
 
+What if there are an even number of numbers?
+
 Standard deviation vs IQR
 ===
 How are each computed?
 
-Making box plots
+SD: Why do we take the square root?
+
+$\sigma$ vs $s$
+
+Why denominator of $n-1$?
+
+On a histogram...
 ===
-What kind of information does this display?
+* Mean is a balance point
+* Median has half the data on either side
+* SD is the "average distance from the mean"
 
 Sensitivity
 ===
@@ -351,7 +358,27 @@ Which of the statistics are sensitive vs robust?
 
 How can we tell?
 
+In the # of death penalty cases, what happens if Texas is removed?
+
+Example
+===
+
+Data set: 1, 2, 9, 20, 5
+
+Mean? Median? SD?
+
+Why is the mean larger than the median?
+
+Making box plots
+===
+What kind of information does this display?
+
+
+
 Comparing
 ===
 When might we use one versus another?
 
+Contingency tables
+===
+For what type of data?
