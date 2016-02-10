@@ -4,7 +4,7 @@ author: Math 144
 
 Probability definition
 ===
-"Proportion of times the outcome would occur if we observed the random process an **infinite** number of times"
+"Proportion of times the outcome would occur if we observed the *random* process an **infinite** number of times"
 
 Notation
 ===
