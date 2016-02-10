@@ -374,11 +374,13 @@ Making box plots
 What kind of information does this display?
 
 
-
-Comparing
-===
-When might we use one versus another?
-
 Contingency tables
 ===
 For what type of data?
+
+Notation
+===
+* Sample mean: $\bar{x}$
+* Population mean: $\mu$
+* Sample proportion: $\hat{p}$
+* Population proportion: $p$
