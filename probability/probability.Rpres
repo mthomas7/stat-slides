@@ -77,9 +77,9 @@ incremental:true
 * What if 13% of men are LH and 14% of women are, with 60% men and 40% women?
 * In each situation, how could we find $P(LH \ and \ M)$?
 * We can also represent this with a tree
-* Notice: for the indepdennt situations: $P(LH \ and \ M) = P(LH) * P(M)$
+* Notice: for the independent situations: $P(LH \ and \ M) = P(LH) * P(M)$
 
-Test for indepdenence
+Test for independence
 ===
 The last equation can be used as a test:
 $P(A \ and \ B) = P(A) * P(B)$ if and only if $A$ and $B$ are independent
