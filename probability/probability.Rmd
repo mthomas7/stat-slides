@@ -97,3 +97,22 @@ and
 (The "|" is read "given")
 
 This is just restricting the population we're looking at!
+
+## Cards
+Given the set of three cards. If you see a blue side, what is the probability that the other side is blue?
+
+## Monty Hall
+
+* Switch or stay?
+
+## Bayes' Theorem
+> * $P(A \ and \ B) = P(A|B)*P(B)$
+> * $P(A \ and \ B) = P(B|A)*B(A)$
+> * $P(A|B)*P(B) = P(B|A)*P(A)$
+> * $P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$
+
+> * P(test + | disease) is called the sensitivity of a test
+> * P(test - | no disease) is called the specificity
+> * What would you want to know if you got a test?
+> * Suppose P(disease) = 0.01, the specificity is 0.96 and the sensitivity is 0.97.
+> * What is P(disease|test +)?
