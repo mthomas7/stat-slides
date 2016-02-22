@@ -116,3 +116,7 @@ Given the set of three cards. If you see a blue side, what is the probability th
 > * What would you want to know if you got a test?
 > * Suppose P(disease) = 0.01, the specificity is 0.96 and the sensitivity is 0.97.
 > * What is P(disease|test +)?
+
+## The end of the world
+
+https://www.youtube.com/watch?v=qXXZLoq2zFc
