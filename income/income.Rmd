@@ -64,7 +64,7 @@ median incomes?
     * Who gets to choose the bin sizes?
 
 ## Interpreting
-* Median U. S. household income is $51324 [12], and mean U. S. household income is $70909.
+* Median U. S. household income is $51324, and mean U. S. household income is $70909.
     * Why might these be higher than the AGI data that we have?
     * What might we hypothesize about the income distribution of households? (more skewed, less skewed, and why)
     
