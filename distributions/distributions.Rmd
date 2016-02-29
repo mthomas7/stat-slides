@@ -8,6 +8,13 @@ output:
     widescreen: yes
 ---
 
+## Update
+Test 1: Wed, 3/9 in class
+
+Formulas: You may bring 1 page of notes with you
+
+Material: up to Friday
+
 ## A question
 
 https://fivethirtyeight.com/features/the-20-most-extreme-cases-of-the-book-was-better-than-the-movie/
