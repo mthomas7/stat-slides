@@ -89,10 +89,10 @@ Mean of z-scores is 0, SD of z-scores is 1
 ## Using z-scores
 On the 2008 SAT, which of the following scores represents the best performance: 580 on reading, 595 on math, or 575 on writing?
 
-      | Reading | Math | Writing
-------|---------|------|--------
-Mean  | 501     | 515  | 493
-SD    | 112     | 116  | 111
+Subject | Reading | Math | Writing
+--------|---------|------|--------
+Mean    | 501     | 515  | 493
+SD      | 112     | 116  | 111
 
 ## Using z-scores
 Reading z = 0.71
