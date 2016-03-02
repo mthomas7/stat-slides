@@ -110,4 +110,62 @@ Many methods, we'll use tables
 > * What percentile is a SAT reading score of 700? (Mean reading score is 503; standard deviation is 113)
 > * What SAT math score is at the 90th percentile? (Mean math score is 518; standard deviation is 115)
 
+## Analyzing normality
+```{r}
+x <- rnorm(500)
+hist(x)
+```
+
+---
+
+```{r}
+qqnorm(x)
+```
+
+---
+
+
+```{r}
+library(car)
+data("ChickWeight")
+head(ChickWeight)
+dim(ChickWeight)
+```
+
+---
+
+```{r}
+summary(ChickWeight)
+```
+
+---
+
+```{r}
+hist(ChickWeight$weight)
+```
+
+---
+
+```{r}
+qqnorm(ChickWeight$weight)
+```
+
 ## Binomial distribution
+* Drawing cards
+* What distribution do we get?
+
+## Assumptions
+* Fixed number of trials
+* Fixed probability of success
+* Independence
+
+## Free throws
+Suppose I make 20% of my free throws, and I make 50 free throws:
+```{r}
+k = seq(0,50)
+plot(k,dbinom(k,50,.3))
+```
+
+---
+
+How do we figure out these heights?
