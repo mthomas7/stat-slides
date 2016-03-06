@@ -163,7 +163,7 @@ qqnorm(ChickWeight$weight)
 Suppose I make 20% of my free throws, and I make 50 free throws:
 ```{r}
 k = seq(0,50)
-plot(k,dbinom(k,50,.3))
+plot(k,dbinom(k,50,.3),type="h")
 ```
 
 ---
