@@ -77,6 +77,12 @@ b) Decide if the mean of the coached group is significantly different than the m
 * How do we get a p-value?
     * Either we use a computer, or we don't (citical t)
 
+## Statistical Significance vs Practical Significance
+## Practical Significance
+Notice that even if the increase in scores is statistically significant, it may not be of practical significance.
+
+e.g. What does a gain of 25 points *mean*?
+
 ## An Issue with the 1-Tail vs 2-Tail Tests
 
 Can we conclude a direction from a 2 tailed test?
