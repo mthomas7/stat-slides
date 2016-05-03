@@ -100,13 +100,16 @@ Using the data from 1960-2005, we fit a line and use it to predict the age of ma
 ## Leaning tower of Pisa
 
 <div class="columns-2">
+
+![](6.png)
+
 The Tower of Pisa is leaning more each year. The measurements show the lean in tenths of
 millimeter beyond 2.9 meters. Thus in 1975, the Tower was leaning 2.9642 meter from the vertical.
 
 1. Does it look like the lean of the Tower is increasing with time? If so, how fast is the lean increasing with time?
 2. Is there evidence that the lean changes significantly with time?
 
-![](6.png)
+
 
 </div>
 
