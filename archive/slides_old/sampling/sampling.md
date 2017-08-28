@@ -1,0 +1,10 @@
+Sampling
+========================================================
+author: Math 145
+date: 
+
+The end of the world
+===
+
+https://www.youtube.com/watch?v=qXXZLoq2zFc
+
