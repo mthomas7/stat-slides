@@ -17,6 +17,8 @@ Logistics
 * What is Statistics?
 * What does is mean when you hear that there is a 20% chance of rain?
 
+## Collecting data
+
 ## Coke and pepsi
 
 * The great debate - design an experiment! What questions could we answer?
