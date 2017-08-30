@@ -32,23 +32,29 @@ Introduce your new friend to a new pair of neighbors
 
 ![](./lowkid.png)
 
----
-
 ## A Typical State
 Look at the number of death penalty cases - what is typical?
 
 <img src="./exec.png" align="middle" width=100% margin="0 auto" />
 
-## Coke and pepsi
+---
 
+How do we measure "average"?
+<img src="./table.png" align="middle" width=100% margin="0 auto" />
+
+## Handedness
+How do we measure a person's handedness?
+
+## A More Complicated Method
+<img src="./hand.png" align="middle" height=450pt margin="0 auto" />
+
+Why might we use this?
+
+
+## Coke and pepsi
 * The great debate - design an experiment! What questions could we answer?
 * How could we analyze our experiment? What would be good enough?
 * Reading: How a tea party...
 
-
-
-
-
-## Handedness
 
 ## Collecting data
