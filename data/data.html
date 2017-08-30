@@ -778,7 +778,7 @@ hljs.initHighlightingOnLoad();
   });
 </script>
 
-<script type="text/javascript" src="data_files/mathjax-23/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="data_files/mathjax-26/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
   
@@ -794,7 +794,7 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>Data</h1><p>Math 144</p>
+<h1>Data</h1><p>Math 145</p>
 
 <div class="slideContent" >
 
@@ -802,23 +802,196 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Update</h3>
+<h3>Distracted drivers</h3>
+<div class="slideContent" >
+<p>Are drivers more distracted when using a cell phone than when talking to a passenger in the car?  Researchers wanted to find out, so they designed an experiment.  Here are the details.</p>
+
+<p>In a study involving 48 people, 24 people were randomly assigned to drive in a driving simulator while using a cell phone. The remaining 24 were assigned to drive in the driving simulator while talking to a passenger in the simulator. Part of the driving simulation for both groups involved asking drivers to exit the freeway at a particular exit. In the study, 7 of the 24 cell phone users missed the exit, while 2 of the 24 talking to a passenger missed the exit.  (from the 2007 AP* Statistics exam, question 5)</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+
+<div class="slideContent noTitle" >
+<p>Let’s start by summarizing the data from this study.  Each of the 48 people in the experiment can be classified into one of the four cells in the table below based on the experimental condition to which they were assigned and whether they missed the designated exit.  Use information from the previous paragraph to complete the table.</p>
+
+<table><thead>
+<tr>
+<th></th>
+<th></th>
+<th>Distraction</th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td></td>
+<td></td>
+<td>Cell phone</td>
+<td>Passenger</td>
+</tr>
+<tr>
+<td>Missed exit?</td>
+<td>Yes</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>No</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>How could we visualize these data?</h3>
+<div class="slideContent" >
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>What are the proportions of each group?</h3>
+<div class="slideContent" >
+<p>(And why is this a badly posed question?)</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>What if it didn&#x27;t make a difference?</h3>
 <div class="slideContent" >
 <ul>
-<li>Lab 1 tomorrow</li>
-<li>Read 1.4-1.7, ch 1, for tomorrow</li>
-<li>HW 1 due Friday</li>
+<li class="fragment">What would we expect then?</li>
+<li class="fragment">What would happen if we reassigned the 48 people in this experiment to the cell phone and passenger groups many times, assuming that the group assignment had no effect on whether each driver missed the exit?  Let’s try it and see.</li>
 </ul>
 
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Wrapping up distracted drivers</h3>
+<h3>The Plan</h3>
 <div class="slideContent" >
+<p>We need 48 cards to represent the 48 drivers in this study.  In the original experiment, 9 people missed the exit and 39 people didn’t miss the exit.  If the group assignment had no effect on drivers&#39; distraction, these results wouldn’t change if we reassigned 24 people to each group at random.  For a physical simulation of these reassignments, we need 9 cards to represent the people who will miss the exit and 39 cards to represent the people who won’t miss the exit.  With your group members, discuss which cards should represent which outcomes.  When you have settled on a plan, designate one member of your group to share your plan with the class.  </p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Experiment</h3>
+<div class="slideContent" >
+<p>Now you’re ready to simulate the process of reassigning people to groups.  “Shuffle up and deal” two piles of 24 cards—the first pile representing the cell phone group and the second pile representing the passenger group.  Record the number of drivers who missed the exit in each group.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>More Experimenting</h3>
+<div class="slideContent" >
+<p>Repeat this process 9 more times so that you have a total of 10 trials.  Record your results in a table.</p>
+
+<table><thead>
+<tr>
+<th align="center">Trial</th>
+<th align="center">Number who missed exit in cell phone group</th>
+<th align="center">Number who missed exit in passenger group</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="center">1</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Compare</h3>
+<div class="slideContent" >
+<p>In the original experiment, 7 of the 24 drivers using cell phones missed the freeway exit, compared to only 2 of the 24 drivers who were talking to a passenger.  How surprising would it be to get a difference this large or larger simply due to chance if the effects of the two experimental conditions on drivers’ distraction were actually the same?  You can estimate the chance of this happening with the results of your simulation.</p>
+
+<p class="fragment">In how many of your 10 simulation trials did 7 or more drivers in the cell phone group miss the exit?  Why don’t you need to consider the number of people in the “talking to a passenger group” who missed the exit?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+
+<div class="slideContent noTitle" >
+<p>Combine results with your classmates.  In what percent of the class’s simulation trials did 7 or more people in the cell phone group miss the freeway exit?</p>
+
+<p class="fragment">Based on the class’s simulation results, do you think it’s possible that cell phones and passengers are equally distracting to drivers, and that the difference observed in the original experiment could have been due to the chance assignment of people to the two groups?  Why or why not?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+
+<div class="mediaInline slideContent noTitle" >
+<p>Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.</p>
+
+<p class="fragment"><img src="data:image/png;base64,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" alt=""/></p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+
+<div class="slideContent noTitle" >
 <ul>
-<li>How do we decide what is &ldquo;surprising?&rdquo;</li>
-<li>What do we compare our results to?</li>
+<li class="fragment">How do we decide what is &ldquo;surprising?&rdquo;</li>
+<li class="fragment">What do we compare our results to?</li>
 </ul>
 
 </div>
@@ -1319,6 +1492,19 @@ major hospitals were examined. The death rates for four common anesthetics are s
 <h3>Contingency tables</h3>
 <div class="slideContent" >
 <p>For what type of data?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Notation</h3>
+<div class="slideContent" >
+<ul>
+<li class="fragment">Sample mean: \( \bar{x} \)</li>
+<li class="fragment">Population mean: \( \mu \)</li>
+<li class="fragment">Sample proportion: \( \hat{p} \)</li>
+<li class="fragment">Population proportion: \( p \)</li>
+</ul>
 
 </div>
 
