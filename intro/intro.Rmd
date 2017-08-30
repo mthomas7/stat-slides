@@ -1,13 +1,21 @@
 ---
-title: "Intro"
-author: "Math 145"
-date: "August 29, 2017"
+title: "Math 145"
+author: "Stats"
+date: "August 30, 2017"
 output: ioslides_presentation
 ---
 
-## Math 145: Introduction
-Logistics
+## Introductions
+- Find a stranger
+    - Name
+    - Major
+    - An interest
+    - Something they're good at
+    
+## Teams
+Introduce your new friend to a new pair of neighbors
 
+## Logistics
 - Sakai
 - Slides
 - Textbook
@@ -17,7 +25,16 @@ Logistics
 * What is Statistics?
 * What does is mean when you hear that there is a 20% chance of rain?
 
-## Collecting data
+## Kidney Cancer Rates
+![](./highkid.png)
+
+---
+
+![](./lowkid.png)
+
+---
+
+
 
 ## Coke and pepsi
 
@@ -28,6 +45,10 @@ Logistics
 ## A Typical State
 Look at the number of death penalty cases - what is typical?
 
-## Kidney Cancer Rates
+<img src="./exec.png" align="middle" width=100% margin="0 auto" />
+
+
 
 ## Handedness
+
+## Collecting data
