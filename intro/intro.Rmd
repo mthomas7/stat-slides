@@ -34,7 +34,10 @@ Introduce your new friend to a new pair of neighbors
 
 ---
 
+## A Typical State
+Look at the number of death penalty cases - what is typical?
 
+<img src="./exec.png" align="middle" width=100% margin="0 auto" />
 
 ## Coke and pepsi
 
@@ -42,10 +45,7 @@ Introduce your new friend to a new pair of neighbors
 * How could we analyze our experiment? What would be good enough?
 * Reading: How a tea party...
 
-## A Typical State
-Look at the number of death penalty cases - what is typical?
 
-<img src="./exec.png" align="middle" width=100% margin="0 auto" />
 
 
 
