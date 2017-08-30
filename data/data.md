@@ -1,11 +1,59 @@
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+    font-size:0.75em;
+}
+
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+</style>
+
+
 Data
 ========================================================
 author: Math 145
-incremental:true
+incremental:false
+
+
+An Experiment
+===
+<center>
+Who likes tea?
+</center>
+
+A Typical State
+===
+Look at the number of death penalty cases - what is typical?
+![](./exec.png)
+
+<div class="footer">Footer</div>
+
+
+===
+How do we measure "typical"?
+![](./table.png)
+
+Handedness
+===
+How do we measure a person's handedness?
+
+
+===
+<center>
+![](hand.png)
+</center>
 
 Distracted drivers
 ===
-incremental:false
 Are drivers more distracted when using a cell phone than when talking to a passenger in the car?  Researchers wanted to find out, so they designed an experiment.  Here are the details.
 
 In a study involving 48 people, 24 people were randomly assigned to drive in a driving simulator while using a cell phone. The remaining 24 were assigned to drive in the driving simulator while talking to a passenger in the simulator. Part of the driving simulation for both groups involved asking drivers to exit the freeway at a particular exit. In the study, 7 of the 24 cell phone users missed the exit, while 2 of the 24 talking to a passenger missed the exit.  (from the 2007 AP* Statistics exam, question 5)
@@ -14,6 +62,7 @@ In a study involving 48 people, 24 people were randomly assigned to drive in a d
 
 ===
 Let’s start by summarizing the data from this study.  Each of the 48 people in the experiment can be classified into one of the four cells in the table below based on the experimental condition to which they were assigned and whether they missed the designated exit.  Use information from the previous paragraph to complete the table.
+
 
 |              |     | Distraction |           |
 |--------------|-----|-------------|-----------|
@@ -68,25 +117,23 @@ In the original experiment, 7 of the 24 drivers using cell phones missed the fre
 In how many of your 10 simulation trials did 7 or more drivers in the cell phone group miss the exit?  Why don’t you need to consider the number of people in the “talking to a passenger group” who missed the exit?
 
 ===
-
 Combine results with your classmates.  In what percent of the class’s simulation trials did 7 or more people in the cell phone group miss the freeway exit?
 
 Based on the class’s simulation results, do you think it’s possible that cell phones and passengers are equally distracting to drivers, and that the difference observed in the original experiment could have been due to the chance assignment of people to the two groups?  Why or why not?
 
 ===
-
 Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.
 
 ![](./hist.png)
 
-===
 
+In general...
+===
 * How do we decide what is "surprising?"
 * What do we compare our results to?
 
 Cases vs variables
 ========================================================
-incremental:false
 Suppose you are conducting a test on a webpage redesign. You create two versions, randomly showing the different versions to different people. You measure how much time each person spends on the page, how many links they click on, and their operating system.
 
 What are the:
