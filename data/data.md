@@ -23,6 +23,14 @@ Data
 author: Math 145
 incremental:false
 
+Logistics
+===
+* Syllabus questions?
+
+Notes:
+* course calendar will contain sections for each day, please follow it and match your readings to those sections
+* survey
+* webwork
 
 An Experiment
 ===
@@ -34,9 +42,6 @@ A Typical State
 ===
 Look at the number of death penalty cases - what is typical?
 ![](./exec.png)
-
-<div class="footer">Footer</div>
-
 
 ===
 How do we measure "typical"?
