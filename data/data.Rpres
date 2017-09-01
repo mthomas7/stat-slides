@@ -82,7 +82,7 @@ PPSS
 
 PPSS
 ===
-Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **sample** is:
+Situation - You want to estimate the average height of all IC students, so you measure 150 heights. The **sample** is:
 
 A. The average height of the 150 student
 
