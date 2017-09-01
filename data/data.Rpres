@@ -76,9 +76,22 @@ What are the:
 * Cases?
 * Variables?
 
-Data matrices (data frames)
+Population and sample
 ===
-How should we structure data so a computer can interpret it?
+PPSS
+
+PPSS
+===
+Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **sample** is:
+
+A. The average height of the 150 student
+
+B. The average height of all IC students
+
+C. The 150 students that were measured
+
+D. All IC students
+
 
 Types of variables
 ====
@@ -88,7 +101,6 @@ Types of variables
 
 Types of variables
 ====
-incremental:false
 What type of variable is:
 
 Hair color?
@@ -179,93 +191,103 @@ Nominal
 Ordinal
 
 
-
-
-PPSS
+Data matrices (data frames)
 ===
-incremental:false
+How should we structure data so a computer can interpret it?
 
-Situation: You want to estimate the average height of all IC students, so you measure 150 heights. The **sample** is:
 
-A. The average height of the 150 student
-
-B. The average height of all IC students
-
-C. The 150 students that were measured
-
-D. All IC students
-
-Returning to the decks of cards
+Distracted drivers
 ===
-incremental:false
+Are drivers more distracted when using a cell phone than when talking to a passenger in the car?  Researchers wanted to find out, so they designed an experiment.  Here are the details.
 
-Report:
-* Which deck?
-* Methods
-  * How many cards?
-  * How was each selected?
-* List of parameters
-* List of statistics and the value of each one
-* Expected value for each statistic (assuming a fair deck)
-* Conclusion
-  * Is the deck fair?
-  * How much $ would you wager?
+In a study involving 48 people, 24 people were randomly assigned to drive in a driving simulator while using a cell phone. The remaining 24 were assigned to drive in the driving simulator while talking to a passenger in the simulator. Part of the driving simulation for both groups involved asking drivers to exit the freeway at a particular exit. In the study, 7 of the 24 cell phone users missed the exit, while 2 of the 24 talking to a passenger missed the exit.  (from the 2007 AP* Statistics exam, question 5)
 
-The questions
+
+
 ===
-incremental:false
-1. What will your sample be? How many cards will you
-draw?
+Let’s start by summarizing the data from this study.  Each of the 48 people in the experiment can be classified into one of the four cells in the table below based on the experimental condition to which they were assigned and whether they missed the designated exit.  Use information from the previous paragraph to complete the table.
 
-2. How will you select each card from the deck? Be 
-specific enough so that a classmate could do exactly 
-what you did. 
-
-3. What parameters would you like to estimate? (For 
-example, “the % of all cards that are face cards” is a 
-possible parameter.) List all of the parameters you will 
-look at.
-
-4. For each parameter, what statistic will you measure? 
-List all of them.
-
-5. For each statistic, what value would you expect it to 
-have if your deck were fair?
+|              |     | Distraction |           |
+|--------------|-----|-------------|-----------|
+|              |     | Cell phone  | Passenger |
+| Missed exit? | Yes |             |           |
+|              | No  |             |           |
 
 
-Independence vs association/dependence
+How could we visualize these data?
 ===
-What does it mean for variables to be independent?
 
-An example
+What are the proportions of each group?
 ===
-incremental:false
-Associations of handedness with hair color and learning disabilities
-Steven C. Schachter, Bernard J. Ransil, Norman Geschwind
-<small>http://www.sciencedirect.com/science/article/pii/0028393287901370</small>
+(And why is this a badly posed question?)
 
-Abstract
-
-Forms containing the Edinburgh handedness inventory and questions about learning disabilities, hair color, self-described handedness, age, gender, parental handedness and twinning were received from 1117 randomly selected professionals. Laterality scores (LS, range −100 to + 100) were calculated for each respondent based on the handedness inventory and were correlated with the above variables. Among blonds, the frequency of non right-handedness (NRH, LS ⩽70) was 44% compared to 24% of non-blonds (x2=23.5, P <0.0001). Learning disabilities (LD) were present in 9% of NRH (LS ⩽70) as against 3% of those with LS > 70 (x2=22.1, P<0.0001). Associations between LS and self-described handedness, parental handedness, gender, and age are also presented. Possible explanations for the association of hair color and handedness are discussed in light of recent data on altered visual system pathways in albinos. Problems in the measurement of handedness are discussed.
-
-Explanatory vs response variables
+What if it didn't make a difference?
 ===
-What would each be in the previous example?
+- What would we expect then?
+- What would happen if we reassigned the 48 people in this experiment to the cell phone and passenger groups many times, assuming that the group assignment had no effect on whether each driver missed the exit?  Let’s try it and see.
 
-Association vs causation
+The Plan
 ===
-What's the difference?
+We need 48 cards to represent the 48 drivers in this study.  In the original experiment, 9 people missed the exit and 39 people didn’t miss the exit.  If the group assignment had no effect on drivers' distraction, these results wouldn’t change if we reassigned 24 people to each group at random.  For a physical simulation of these reassignments, we need 9 cards to represent the people who will miss the exit and 39 cards to represent the people who won’t miss the exit.  With your group members, discuss which cards should represent which outcomes.  When you have settled on a plan, designate one member of your group to share your plan with the class.  
 
-* Ice cream sales and shark attacks
-* Children with larger shoe sizes read better
-* Countries with more TV sets per person have longer life expectancy
-* Study time and test scores
-
-Another example
+Experiment
 ===
-<div align="center">
-<img src="correlation.png" width=800>
-</div>
+Now you’re ready to simulate the process of reassigning people to groups.  “Shuffle up and deal” two piles of 24 cards—the first pile representing the cell phone group and the second pile representing the passenger group.  Record the number of drivers who missed the exit in each group.
+
+More Experimenting
+===
+Repeat this process 9 more times so that you have a total of 10 trials.  Record your results in a table.
+
+| Trial | Number who missed exit in cell phone group | Number who missed exit in passenger group |
+|:-----:|:------------------------------------------:|:-----------------------------------------:|
+|   1   |                                            |                                           |
+|   2   |                                            |                                           |
+|   3   |                                            |                                           |
+|   4   |                                            |                                           |
+|   5   |                                            |                                           |
+|   6   |                                            |                                           |
+|   7   |                                            |                                           |
+|   8   |                                            |                                           |
+|   9   |                                            |                                           |
+|   10  |                                            |                                           |
+
+
+
+Compare
+===
+In the original experiment, 7 of the 24 drivers using cell phones missed the freeway exit, compared to only 2 of the 24 drivers who were talking to a passenger.  How surprising would it be to get a difference this large or larger simply due to chance if the effects of the two experimental conditions on drivers’ distraction were actually the same?  You can estimate the chance of this happening with the results of your simulation.
+
+In how many of your 10 simulation trials did 7 or more drivers in the cell phone group miss the exit?  Why don’t you need to consider the number of people in the “talking to a passenger group” who missed the exit?
+
+===
+
+Combine results with your classmates.  In what percent of the class’s simulation trials did 7 or more people in the cell phone group miss the freeway exit?
+
+Based on the class’s simulation results, do you think it’s possible that cell phones and passengers are equally distracting to drivers, and that the difference observed in the original experiment could have been due to the chance assignment of people to the two groups?  Why or why not?
+
+===
+
+Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.
+
+![](./hist.png)
+
+===
+
+* How do we decide what is "surprising?"
+* What do we compare our results to?
+
+
+
+
+
+
+
+
+
+
+
+=======================================================================
+
 
 Interpreting experiments
 ===
@@ -406,189 +428,73 @@ Notation
 * Population proportion: $p$
 
 
-Distracted drivers
+
+
+Returning to the decks of cards
+===
+Report:
+* Which deck?
+* Methods
+  * How many cards?
+  * How was each selected?
+* List of parameters
+* List of statistics and the value of each one
+* Expected value for each statistic (assuming a fair deck)
+* Conclusion
+  * Is the deck fair?
+  * How much $ would you wager?
+
+The questions
+===
+1. What will your sample be? How many cards will you
+draw?
+
+2. How will you select each card from the deck? Be 
+specific enough so that a classmate could do exactly 
+what you did. 
+
+3. What parameters would you like to estimate? (For 
+example, “the % of all cards that are face cards” is a 
+possible parameter.) List all of the parameters you will 
+look at.
+
+4. For each parameter, what statistic will you measure? 
+List all of them.
+
+5. For each statistic, what value would you expect it to 
+have if your deck were fair?
+
+
+Independence vs association/dependence
+===
+What does it mean for variables to be independent?
+
+An example
 ===
 incremental:false
-Are drivers more distracted when using a cell phone than when talking to a passenger in the car?  Researchers wanted to find out, so they designed an experiment.  Here are the details.
+Associations of handedness with hair color and learning disabilities
+Steven C. Schachter, Bernard J. Ransil, Norman Geschwind
+<small>http://www.sciencedirect.com/science/article/pii/0028393287901370</small>
 
-In a study involving 48 people, 24 people were randomly assigned to drive in a driving simulator while using a cell phone. The remaining 24 were assigned to drive in the driving simulator while talking to a passenger in the simulator. Part of the driving simulation for both groups involved asking drivers to exit the freeway at a particular exit. In the study, 7 of the 24 cell phone users missed the exit, while 2 of the 24 talking to a passenger missed the exit.  (from the 2007 AP* Statistics exam, question 5)
+Abstract
 
+Forms containing the Edinburgh handedness inventory and questions about learning disabilities, hair color, self-described handedness, age, gender, parental handedness and twinning were received from 1117 randomly selected professionals. Laterality scores (LS, range −100 to + 100) were calculated for each respondent based on the handedness inventory and were correlated with the above variables. Among blonds, the frequency of non right-handedness (NRH, LS ⩽70) was 44% compared to 24% of non-blonds (x2=23.5, P <0.0001). Learning disabilities (LD) were present in 9% of NRH (LS ⩽70) as against 3% of those with LS > 70 (x2=22.1, P<0.0001). Associations between LS and self-described handedness, parental handedness, gender, and age are also presented. Possible explanations for the association of hair color and handedness are discussed in light of recent data on altered visual system pathways in albinos. Problems in the measurement of handedness are discussed.
 
-
+Explanatory vs response variables
 ===
-Let’s start by summarizing the data from this study.  Each of the 48 people in the experiment can be classified into one of the four cells in the table below based on the experimental condition to which they were assigned and whether they missed the designated exit.  Use information from the previous paragraph to complete the table.
+What would each be in the previous example?
 
-|              |     | Distraction |           |
-|--------------|-----|-------------|-----------|
-|              |     | Cell phone  | Passenger |
-| Missed exit? | Yes |             |           |
-|              | No  |             |           |
-
-
-How could we visualize these data?
+Association vs causation
 ===
+What's the difference?
 
-What are the proportions of each group?
+* Ice cream sales and shark attacks
+* Children with larger shoe sizes read better
+* Countries with more TV sets per person have longer life expectancy
+* Study time and test scores
+
+Another example
 ===
-(And why is this a badly posed question?)
-
-What if it didn't make a difference?
-===
-- What would we expect then?
-- What would happen if we reassigned the 48 people in this experiment to the cell phone and passenger groups many times, assuming that the group assignment had no effect on whether each driver missed the exit?  Let’s try it and see.
-
-The Plan
-===
-We need 48 cards to represent the 48 drivers in this study.  In the original experiment, 9 people missed the exit and 39 people didn’t miss the exit.  If the group assignment had no effect on drivers' distraction, these results wouldn’t change if we reassigned 24 people to each group at random.  For a physical simulation of these reassignments, we need 9 cards to represent the people who will miss the exit and 39 cards to represent the people who won’t miss the exit.  With your group members, discuss which cards should represent which outcomes.  When you have settled on a plan, designate one member of your group to share your plan with the class.  
-
-Experiment
-===
-Now you’re ready to simulate the process of reassigning people to groups.  “Shuffle up and deal” two piles of 24 cards—the first pile representing the cell phone group and the second pile representing the passenger group.  Record the number of drivers who missed the exit in each group.
-
-More Experimenting
-===
-Repeat this process 9 more times so that you have a total of 10 trials.  Record your results in a table.
-
-| Trial | Number who missed exit in cell phone group | Number who missed exit in passenger group |
-|:-----:|:------------------------------------------:|:-----------------------------------------:|
-|   1   |                                            |                                           |
-|   2   |                                            |                                           |
-|   3   |                                            |                                           |
-|   4   |                                            |                                           |
-|   5   |                                            |                                           |
-|   6   |                                            |                                           |
-|   7   |                                            |                                           |
-|   8   |                                            |                                           |
-|   9   |                                            |                                           |
-|   10  |                                            |                                           |
-
-
-
-Compare
-===
-In the original experiment, 7 of the 24 drivers using cell phones missed the freeway exit, compared to only 2 of the 24 drivers who were talking to a passenger.  How surprising would it be to get a difference this large or larger simply due to chance if the effects of the two experimental conditions on drivers’ distraction were actually the same?  You can estimate the chance of this happening with the results of your simulation.
-
-In how many of your 10 simulation trials did 7 or more drivers in the cell phone group miss the exit?  Why don’t you need to consider the number of people in the “talking to a passenger group” who missed the exit?
-
-===
-
-Combine results with your classmates.  In what percent of the class’s simulation trials did 7 or more people in the cell phone group miss the freeway exit?
-
-Based on the class’s simulation results, do you think it’s possible that cell phones and passengers are equally distracting to drivers, and that the difference observed in the original experiment could have been due to the chance assignment of people to the two groups?  Why or why not?
-
-===
-
-Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.
-
-![](./hist.png)
-
-===
-
-* How do we decide what is "surprising?"
-* What do we compare our results to?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Distracted drivers
-===
-Are drivers more distracted when using a cell phone than when talking to a passenger in the car?  Researchers wanted to find out, so they designed an experiment.  Here are the details.
-
-In a study involving 48 people, 24 people were randomly assigned to drive in a driving simulator while using a cell phone. The remaining 24 were assigned to drive in the driving simulator while talking to a passenger in the simulator. Part of the driving simulation for both groups involved asking drivers to exit the freeway at a particular exit. In the study, 7 of the 24 cell phone users missed the exit, while 2 of the 24 talking to a passenger missed the exit.  (from the 2007 AP* Statistics exam, question 5)
-
-
-
-===
-Let’s start by summarizing the data from this study.  Each of the 48 people in the experiment can be classified into one of the four cells in the table below based on the experimental condition to which they were assigned and whether they missed the designated exit.  Use information from the previous paragraph to complete the table.
-
-
-|              |     | Distraction |           |
-|--------------|-----|-------------|-----------|
-|              |     | Cell phone  | Passenger |
-| Missed exit? | Yes |             |           |
-|              | No  |             |           |
-
-
-How could we visualize these data?
-===
-
-What are the proportions of each group?
-===
-(And why is this a badly posed question?)
-
-What if it didn't make a difference?
-===
-- What would we expect then?
-- What would happen if we reassigned the 48 people in this experiment to the cell phone and passenger groups many times, assuming that the group assignment had no effect on whether each driver missed the exit?  Let’s try it and see.
-
-The Plan
-===
-We need 48 cards to represent the 48 drivers in this study.  In the original experiment, 9 people missed the exit and 39 people didn’t miss the exit.  If the group assignment had no effect on drivers' distraction, these results wouldn’t change if we reassigned 24 people to each group at random.  For a physical simulation of these reassignments, we need 9 cards to represent the people who will miss the exit and 39 cards to represent the people who won’t miss the exit.  With your group members, discuss which cards should represent which outcomes.  When you have settled on a plan, designate one member of your group to share your plan with the class.  
-
-Experiment
-===
-Now you’re ready to simulate the process of reassigning people to groups.  “Shuffle up and deal” two piles of 24 cards—the first pile representing the cell phone group and the second pile representing the passenger group.  Record the number of drivers who missed the exit in each group.
-
-More Experimenting
-===
-Repeat this process 9 more times so that you have a total of 10 trials.  Record your results in a table.
-
-| Trial | Number who missed exit in cell phone group | Number who missed exit in passenger group |
-|:-----:|:------------------------------------------:|:-----------------------------------------:|
-|   1   |                                            |                                           |
-|   2   |                                            |                                           |
-|   3   |                                            |                                           |
-|   4   |                                            |                                           |
-|   5   |                                            |                                           |
-|   6   |                                            |                                           |
-|   7   |                                            |                                           |
-|   8   |                                            |                                           |
-|   9   |                                            |                                           |
-|   10  |                                            |                                           |
-
-
-
-Compare
-===
-In the original experiment, 7 of the 24 drivers using cell phones missed the freeway exit, compared to only 2 of the 24 drivers who were talking to a passenger.  How surprising would it be to get a difference this large or larger simply due to chance if the effects of the two experimental conditions on drivers’ distraction were actually the same?  You can estimate the chance of this happening with the results of your simulation.
-
-In how many of your 10 simulation trials did 7 or more drivers in the cell phone group miss the exit?  Why don’t you need to consider the number of people in the “talking to a passenger group” who missed the exit?
-
-===
-Combine results with your classmates.  In what percent of the class’s simulation trials did 7 or more people in the cell phone group miss the freeway exit?
-
-Based on the class’s simulation results, do you think it’s possible that cell phones and passengers are equally distracting to drivers, and that the difference observed in the original experiment could have been due to the chance assignment of people to the two groups?  Why or why not?
-
-===
-Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.
-
-![](./hist.png)
-
-
-In general...
-===
-* How do we decide what is "surprising?"
-* What do we compare our results to?
-
-
+<div align="center">
+<img src="correlation.png" width=800>
+</div>
