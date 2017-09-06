@@ -46,8 +46,11 @@ An Example
 You want to know the caloric intake of MLB players. You survey 3 players from each of 7 randomly chosen team. This is:
 
 A. Simple random sampling
+
 B. Stratified sampling
+
 C. Cluster sampling
+
 D. Multistage sampling
 
 
