@@ -12,9 +12,18 @@ What are the types?
 
 Means
 ===
+How do we compute it?
+
 For what kind of data?
 
-How do we compute?
+Compared to...
+===
+Median - What does is measure?
+
+Mode - What does it measure?
+
+What if there are an even number of numbers?
+
 
 Histograms
 ===
@@ -24,15 +33,7 @@ Skew
 ===
 What does skew measure?
 
-Mode
-===
-What does it measure?
 
-Median
-===
-What does is measure?
-
-What if there are an even number of numbers?
 
 Standard deviation vs IQR
 ===
