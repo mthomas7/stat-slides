@@ -151,11 +151,9 @@ Based on the class’s simulation results, do you think it’s possible that cel
 
 Our results
 ===
-```{r, echo=FALSE}
-require(mosaic)
-histogram(`Missed exit in cell group`, data=cell)
-```
-
+<center>
+![](Rplot1.png)
+</center>
 
 ===
 Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.
@@ -184,5 +182,34 @@ Observational or experimental study?
 Which hospital would you go to?
 
 
+The Physicians’ Health Study (1980-1995)
+===
+A longitudinal study of the effect of aspirin and beta
+carotene on heart attacks. 2 In the study, 21,996 male physicians were randomly divided into four equal
+groups and given pills or placebos of aspirin and beta carotene (real versions of both, just one, or neither).
+The result was that 239 of the aspirin placebo group and 139 of the aspirin group had heart attacks. 3 Was
+this an observational study or an experiment? What can you conclude from it?
 
+Example
+===
+A Sept 2006 article 4 , “Vitamin D halves the risk of pancreatic cancer,” reported on the work scientists
+at Northwestern and Harvard who examined data from two long-term health studies of 46,771 men and
+75,427 women. They found that people who took vitamin D had a 43% lower risk of pancreatic cancer.
+Comment.
 
+Experimenter and Hawthorne effects
+===
+The experimenter effect occurs when the experimenter influences the result of the experiment (by
+accident). The Hawthorne effect occurs when the subjects respond differently just because they are part of
+an experiment. Both can be eliminated by using a placebo.
+
+Blinding
+===
+In 2007, doctors in Germany showed that people who ate a small amount of dark chocolate each day
+had lower blood pressure than those who ate white chocolate. 9 What kind of blinding was possible?
+
+Associations
+===
+Positive vs negative associations, linear and non-linear
+
+[Spurious correlations](http://www.tylervigen.com/spurious-correlations)

@@ -1,4 +1,4 @@
-Numerical Variables
+Numerical Data
 ========================================================
 author: Math 145
 date: 
@@ -16,34 +16,51 @@ How do we compute it?
 
 For what kind of data?
 
+Mean formula
+===
+$$\bar{x} = \dfrac{x_1+x_2+x_3+\ldots+x_n}{n}$$
+
+- $\bar{x}$ vs $\mu$
+
 Compared to...
 ===
 Median - What does is measure?
 
 Mode - What does it measure?
 
-What if there are an even number of numbers?
+(What if there are an even number of numbers?)
 
 
-Histograms
+Why the choices?
 ===
-What kind of data?
+Why do you think we might have different "measures of center"?
+
+
+1 Variable: Histograms
+===
+What kind of data? (other graphs will be explored in the lab)
 
 Skew
 ===
 What does skew measure?
 
-
-
-Standard deviation vs IQR
+Measuring the spread of data: Standard deviation vs IQR
 ===
+incremental:true
 How are each computed?
+
+Let's build the formula for stardard deviation...
 
 SD: Why do we take the square root?
 
 $\sigma$ vs $s$
 
 Why denominator of $n-1$?
+
+
+Outliers
+===
+Rules for Medians/IQR: 1.5 * IQR
 
 On a histogram...
 ===
@@ -53,6 +70,7 @@ On a histogram...
 
 Sensitivity
 ===
+incremental:true
 Which of the statistics are sensitive vs robust?
 
 How can we tell?
@@ -61,7 +79,6 @@ In the # of death penalty cases, what happens if Texas is removed?
 
 Example
 ===
-
 Data set: 1, 2, 9, 20, 5
 
 Mean? Median? SD?
@@ -72,11 +89,6 @@ Making box plots
 ===
 What kind of information does this display?
 
-
-Contingency tables
-===
-For what type of data?
-
 Notation
 ===
 * Sample mean: $\bar{x}$
@@ -86,24 +98,6 @@ Notation
 
 
 
-
-Returning to the decks of cards
-===
-Report:
-* Which deck?
-* Methods
-  * How many cards?
-  * How was each selected?
-* List of parameters
-* List of statistics and the value of each one
-* Expected value for each statistic (assuming a fair deck)
-* Conclusion
-  * Is the deck fair?Hi everyone,
-
-I need to make a slight change in office hours this week - the Wednesday office hours normall from 10-11:30 will have to be moved to 2-3:30 (just for this week).
-
-Matt
-  * How much $ would you wager?
 
 The questions
 ===
