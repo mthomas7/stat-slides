@@ -165,6 +165,17 @@ Here are the results of 1000 trials of a computer simulation, like the one you d
 * How do we decide what is "surprising?"
 * What do we compare our results to?
 
+How long until we draw a red card?
+===
+How many draws will it take to draw the first red card?
+
+How do we decide if a die is fair?
+===
+
+What's the same
+===
+We're always comparing a potential model with the data we're getting, and deciding whether out model is reasonable.
+
 
 Interpreting experiments
 ===
