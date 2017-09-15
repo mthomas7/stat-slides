@@ -2,7 +2,10 @@ Numerical Data
 ========================================================
 author: Math 145
 date: 
-autosize: true
+autosize: false
+
+===
+![](convincing.png)
 
 Reminder
 ===
