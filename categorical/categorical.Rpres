@@ -62,6 +62,10 @@ tally(exerany~hlthplan, data=cdc, format="percent", margins=TRUE)
 
 Bar Graphs
 ===
+<img src="the_data_so_far.png" height=800>
+
+Bar Graphs
+===
 ```{r, out.width=980}
 bargraph(~exerany, data=cdc)
 ```

@@ -115,6 +115,10 @@ exerany         0         1
 
 Bar Graphs
 ===
+<img src="the_data_so_far.png" height=800>
+
+Bar Graphs
+===
 
 ```r
 bargraph(~exerany, data=cdc)
