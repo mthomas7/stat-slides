@@ -116,7 +116,7 @@ type:section
 
 1 Variable: Histograms
 ===
-```{r}
+```{r, out.width=1000}
 histogram(~height, data=cdc)
 ```
 
@@ -126,7 +126,7 @@ We can change the number of break, the number of bins, etc., but we typically wo
 
 On a histogram...
 ===
-```{r}
+```{r, out.width=1000}
 histogram(~height, data=cdc)
 ```
 ***
@@ -164,7 +164,7 @@ CDC: Age
 favstats(~age, data=cdc)
 ```
 
-```{r}
+```{r, out.width=700}
 bwplot(~age, data=cdc)
 ```
 
@@ -175,13 +175,13 @@ CDC: Height
 favstats(~height, data=cdc)
 ```
 
-```{r}
+```{r, out.width-700}
 bwplot(~height, data=cdc)
 ```
 
 Dotplots
 ===
-```{r}
+```{r, out.width=900}
 dotPlot(~age, data=cdc)
 ```
 
@@ -205,9 +205,11 @@ head(cdc)
 
 Scatterplot
 ===
-```{r}
+```{r, out.width=1000}
 xyplot(wtdesire~weight, data=cdc)
 ```
 ***
-What does the scatterplot tell us? What does the scatterplot not tell us?
+What does the scatterplot tell us?
+
+What does the scatterplot not tell us?
 

@@ -124,7 +124,7 @@ type:section
 histogram(~height, data=cdc)
 ```
 
-![plot of chunk unnamed-chunk-3](numerical-figure/unnamed-chunk-3-1.png)
+<img src="numerical-figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="1000" />
 
 ***
 
@@ -137,7 +137,7 @@ On a histogram...
 histogram(~height, data=cdc)
 ```
 
-![plot of chunk unnamed-chunk-4](numerical-figure/unnamed-chunk-4-1.png)
+<img src="numerical-figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="1000" />
 ***
 * Mean is a balance point
 * Median has half the data on either side
@@ -184,7 +184,7 @@ favstats(~age, data=cdc)
 bwplot(~age, data=cdc)
 ```
 
-![plot of chunk unnamed-chunk-6](numerical-figure/unnamed-chunk-6-1.png)
+<img src="numerical-figure/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="700" />
 
 
 CDC: Height
@@ -204,7 +204,7 @@ favstats(~height, data=cdc)
 bwplot(~height, data=cdc)
 ```
 
-![plot of chunk unnamed-chunk-8](numerical-figure/unnamed-chunk-8-1.png)
+![plot of chunk out.width-700](numerical-figure/out.width-700-1.png)
 
 Dotplots
 ===
@@ -213,7 +213,7 @@ Dotplots
 dotPlot(~age, data=cdc)
 ```
 
-![plot of chunk unnamed-chunk-9](numerical-figure/unnamed-chunk-9-1.png)
+<img src="numerical-figure/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="900" />
 
 
 Notation
@@ -251,7 +251,9 @@ Scatterplot
 xyplot(wtdesire~weight, data=cdc)
 ```
 
-![plot of chunk unnamed-chunk-11](numerical-figure/unnamed-chunk-11-1.png)
+<img src="numerical-figure/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" width="1000" />
 ***
-What does the scatterplot tell us? What does the scatterplot not tell us?
+What does the scatterplot tell us?
+
+What does the scatterplot not tell us?
 
