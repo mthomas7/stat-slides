@@ -14,14 +14,14 @@ What is categorical data?
 
 A Question
 ===
-In January 1971, the Gallup poll asked: "A proposal has been made in Congrass to require the U.S. government to bring home all U.S. troops before the end fo the this year. Would you like to have your congressman vote for or against this proposal?"
+In January 1971, the Gallup poll asked: "A proposal has been made in Congress to require the U.S. government to bring home all U.S. troops before the end of the this year. Would you like to have your congressman vote for or against this proposal?"
 
 Guess the results, for respondents in each education category, and fill out this table (the two numbers in each column should add up to 100%):
 
 |                                            | Grade school education | High school education | College education | Total adults |
 |--------------------------------------------|------------------------|-----------------------|-------------------|--------------|
-| % for withdrawl of U.S. troops (doves)     |                        |                       |                   | 73%          |
-| % against withdrawl of U.S. troops (hawks) |                        |                       |                   | 27%          |
+| % for withdrawal of U.S. troops (doves)     |                        |                       |                   | 73%          |
+| % against withdrawal of U.S. troops (hawks) |                        |                       |                   | 27%          |
 | Total                                      | 100%                   | 100%                  | 100%              | 100%         |
 
 
@@ -29,8 +29,8 @@ True values
 ===
 |                                            | Grade school education | High school education | College education | Total adults |
 |--------------------------------------------|------------------------|-----------------------|-------------------|--------------|
-| % for withdrawl of U.S. troops (doves)     |  80%                   | 75%                   |  60%              | 73%          |
-| % against withdrawl of U.S. troops (hawks) |  20%                   | 25%                   |  40%              | 27%          |
+| % for withdrawal of U.S. troops (doves)     |  80%                   | 75%                   |  60%              | 73%          |
+| % against withdrawal of U.S. troops (hawks) |  20%                   | 25%                   |  40%              | 27%          |
 | Total                                      | 100%                   | 100%                  | 100%              | 100%         |
 
 
@@ -144,3 +144,12 @@ bargraph(~exerany|gender, data=cdc)
 ```
 
 <img src="categorical-figure/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="980" />
+
+Pie Graphs
+===
+<img src="rick.jpg" height=800>
+
+Don't be fooled by pie graphs!
+===
+<img src="pie.gif" height=600>
+
