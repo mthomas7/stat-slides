@@ -22,6 +22,10 @@ Probability
 ===
 How do we interpret both of these problems?
 
+Coin flipping
+===
+Either flip a coin 50 times, or pretent to flip a coin 50 times. Record the results.
+
 What is probability?
 ===
 type:section
@@ -38,17 +42,27 @@ Say you flip a (fair) coin many times - what do you expect to be true about the 
 
 $\hat{p}_n \approx p$, and gets better as n gets larger
 
+Terminology
+===
+ANDs and ORs
+
 Disjoint / Mutually Exclusive
 ===
+Disjoint events are those which cannot happen simultaneously.
+
+E.g. draw a card. It is either a heart, spade, diamond, or a club. It cannot be more than one of these.
 
 Addition rule
 ===
+$P(Club \ or \ Diamond) = P(Club) + P(Diamond)$
 
 Non-disjoint
 ===
+$P(Club \ or \ King)=$?
 
 Complements
 ===
+$P(not \ a \ club) = P(club^c) =$?
 
 Independence
 ===
