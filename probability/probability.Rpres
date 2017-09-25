@@ -24,7 +24,7 @@ How do we interpret both of these problems?
 
 Coin flipping
 ===
-Either flip a coin 50 times, or pretent to flip a coin 50 times. Record the results.
+Either flip a coin 50 times, or pretend to flip a coin 50 times. Record the results.
 
 What is probability?
 ===
@@ -66,11 +66,27 @@ $P(not \ a \ club) = P(club^c) =$?
 
 Independence
 ===
+We should use a tree diagram - what does it mean for two events to be independent?
 
 Multiplication rule
 ===
+incremental:true
+* $P(A \ and \ B) = P(A)*P(B)$
+* This is ONLY true for independent events
 
 Conditional probability
+===
+$P(A|B)$
+
+
+An Example
+===
+
+Sensitivity: true positive rate
+
+Specificity: true negative rate
+
+
 ===
 Marginal, joint, conditional probabilities
 
