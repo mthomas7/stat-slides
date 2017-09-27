@@ -1,3 +1,35 @@
+<style>
+.vert {
+    position: relative;
+    top: 25%;
+}
+
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+</style>
+
+
 Probability
 ========================================================
 author: Math 145
@@ -66,7 +98,34 @@ $P(not \ a \ club) = P(club^c) =$?
 
 Independence
 ===
+incremental:true
 We should use a tree diagram - what does it mean for two events to be independent?
+
+Rain in Ithaca and whether or not your cousin catches the train in LA are independent. (Unless you
+call her because of the rain and delay her.....)
+
+Rain and snow in ithaca are likley not independent - what does this mean as a probability statement?
+
+Sex and handedness: 13% of men and 13% of women are left handed (LH). We say handeded-ness is
+independent of gender. In a population that is 50% female, we have $P(LH)=0.13$ and $P(M)=0.5$. Find $P(LH \ and \ M)$.
+
+Test for Independence
+===
+$P(A)P(B) = P(A \ and \ B)$ is a way of testing for independence
+
+Is this a statement about populations or samples?
+
+Colorblindness
+===
+incremental:true
+
+Given that 0.4% of women, 7% of men are color blind (CB), and that there are 50% women in the population,
+find the proportion of color blind people in the population.
+
+What if it's not 50/50?
+
+Are sex and colorblindness indepdendent?
+
 
 Multiplication rule
 ===
@@ -78,16 +137,42 @@ Conditional probability
 ===
 $P(A|B)$
 
+Describe in words the difference between $P(Color \ Blind|Male)$ and $P(Male|Color \ Blind)$
 
 An Example
 ===
 
 Sensitivity: true positive rate
-
 Specificity: true negative rate
 
+---
 
+Suppose:
+* sensitivity is 99%
+* specificity is 98%
+* prevalence is 5%
+
+If you get a positive test result, what is the probability you have the disease?
+
+Indepdence and conditional probabilities
 ===
-Marginal, joint, conditional probabilities
+class:vert
+What would an indepdence statement look like in the setting of conditional probabilities?
 
+
+Types of probabilities
+===
+* Marginal: $P(A)$
+* Joint: $P(A \ and \ B)$
+* Conditional: $P(A|B)$
+
+How they're related
+===
 $$P(A|B) = \dfrac{P(A \ and \ B)}{P(B)}$$
+
+Bayes' rule
+===
+$$P(A|B) = \frac{P(A)P(B|A)}{P(B)}$$
+
+* We can justify this with a tree diagram
+* Good for testing hypotheses

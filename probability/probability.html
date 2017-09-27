@@ -783,7 +783,7 @@ hljs.initHighlightingOnLoad();
 
   
 
-
+<style>.vert {    position: relative;    top: 25%;}.footer {    color: black;    background: #E8E8E8;    position: fixed;    top: 90%;    text-align:center;    width:100%;}.container {    display: flex;    align-items: center;    justify-content: center;}.center {    right: 50%;    bottom: 50%;    transform: translate(50%,50%);    position: absolute;}</style>
 
 
 
@@ -916,6 +916,37 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <p>We should use a tree diagram - what does it mean for two events to be independent?</p>
 
+<p class="fragment">Rain in Ithaca and whether or not your cousin catches the train in LA are independent. (Unless you
+call her because of the rain and delay her&hellip;..)</p>
+
+<p class="fragment">Rain and snow in ithaca are likley not independent - what does this mean as a probability statement?</p>
+
+<p class="fragment">Sex and handedness: 13% of men and 13% of women are left handed (LH). We say handeded-ness is
+independent of gender. In a population that is 50% female, we have \( P(LH)=0.13 \) and \( P(M)=0.5 \). Find \( P(LH \ and \ M) \).</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Test for Independence</h3>
+<div class="slideContent" >
+<p>\( P(A)P(B) = P(A \ and \ B) \) is a way of testing for independence</p>
+
+<p>Is this a statement about populations or samples?</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Colorblindness</h3>
+<div class="slideContent" >
+<p>Given that 0.4% of women, 7% of men are color blind (CB), and that there are 50% women in the population,
+find the proportion of color blind people in the population.</p>
+
+<p class="fragment">What if it&#39;s not 50/50?</p>
+
+<p class="fragment">Are sex and colorblindness indepdendent?</p>
+
 </div>
 
 </section>
@@ -935,25 +966,73 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <p>\( P(A|B) \)</p>
 
+<p>Describe in words the difference between \( P(Color \ Blind|Male) \) and \( P(Male|Color \ Blind) \)</p>
+
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
 <h3>An Example</h3>
-<div class="slideContent" >
-<p>Sensitivity: true positive rate</p>
+<div class="column column1 slideContent" >
+<p>Sensitivity: true positive rate
+Specificity: true negative rate</p>
 
-<p>Specificity: true negative rate</p>
+
+</div>
+
+<div class="column column2 slideContent" >
+
+
+<p>Suppose:</p>
+
+<ul>
+<li>sensitivity is 99%</li>
+<li>specificity is 98%</li>
+<li>prevalence is 5%</li>
+</ul>
+
+<p>If you get a positive test result, what is the probability you have the disease?</p>
 
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
+<h3>Indepdence and conditional probabilities</h3>
+<div class="slideContent vert" >
+<p>What would an indepdence statement look like in the setting of conditional probabilities?</p>
 
-<div class="slideContent noTitle" >
-<p>Marginal, joint, conditional probabilities</p>
+</div>
 
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Types of probabilities</h3>
+<div class="slideContent" >
+<ul>
+<li>Marginal: \( P(A) \)</li>
+<li>Joint: \( P(A \ and \ B) \)</li>
+<li>Conditional: \( P(A|B) \)</li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>How they&#x27;re related</h3>
+<div class="slideContent" >
 <p>\[ P(A|B) = \dfrac{P(A \ and \ B)}{P(B)} \]</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Bayes&#x27; rule</h3>
+<div class="slideContent" >
+<p>\[ P(A|B) = \frac{P(A)P(B|A)}{P(B)} \]</p>
+
+<ul>
+<li>We can justify this with a tree diagram</li>
+<li>Good for testing hypotheses</li>
+</ul>
 
 </div>
 
