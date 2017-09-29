@@ -1,9 +1,4 @@
 <style>
-.vert {
-    position: relative;
-    top: 25%;
-}
-
 .footer {
     color: black;
     background: #E8E8E8;
@@ -13,18 +8,28 @@
     width:100%;
 }
 
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.smfooter {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+    font-size: 5em;
 }
 
-.center {
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%,50%);
-    position: absolute;
+.horiz {
+  text-align:cener;
+}
+
+.vert {
+ position: relative;
+ top: 50%;
+ transform: translateY(-50%);
+ }
+
+.small-code pre code {
+  font-size: 40em;
 }
 
 </style>
@@ -38,6 +43,9 @@ autosize: false
 
 Project groups
 ===
+class:small-code
+
+test
 
 Monty Hall
 ===
@@ -115,6 +123,15 @@ $P(A)P(B) = P(A \ and \ B)$ is a way of testing for independence
 
 Is this a statement about populations or samples?
 
+Fire alarms
+===
+Suppose a dorm has a 3% chance of a fire alarm going off, and there are three dorms.
+Assuming the chance of a fire alarm in a dorm is independent of the other dorms, what is:
+
+* $P(\text{no alarms go off})$
+* $P(\text{exactly one alarm goes off})$
+* $P(\text{at least one alarm goes off})$
+
 Colorblindness
 ===
 incremental:true
@@ -157,6 +174,7 @@ If you get a positive test result, what is the probability you have the disease?
 Indepdence and conditional probabilities
 ===
 class:vert
+
 What would an indepdence statement look like in the setting of conditional probabilities?
 
 
