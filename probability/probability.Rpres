@@ -19,7 +19,7 @@
 }
 
 .horiz {
-  text-align:cener;
+  text-align:center;
 }
 
 .vert {
@@ -112,7 +112,7 @@ We should use a tree diagram - what does it mean for two events to be independen
 Rain in Ithaca and whether or not your cousin catches the train in LA are independent. (Unless you
 call her because of the rain and delay her.....)
 
-Rain and snow in ithaca are likley not independent - what does this mean as a probability statement?
+Rain and snow in ithaca are likely not independent - what does this mean as a probability statement?
 
 Sex and handedness: 13% of men and 13% of women are left handed (LH). We say handeded-ness is
 independent of gender. In a population that is 50% female, we have $P(LH)=0.13$ and $P(M)=0.5$. Find $P(LH \ and \ M)$.
@@ -132,6 +132,14 @@ Assuming the chance of a fire alarm in a dorm is independent of the other dorms,
 * $P(\text{exactly one alarm goes off})$
 * $P(\text{at least one alarm goes off})$
 
+Independence
+===
+Suppose you have a standard deck of cards.
+
+* Are drawing a jack and drawing a heart independent?
+* Are drawing a jack and drawing a 2 independent?
+* Are drawing a red card and drawing a heart independent?
+
 Colorblindness
 ===
 incremental:true
@@ -141,7 +149,7 @@ find the proportion of color blind people in the population.
 
 What if it's not 50/50?
 
-Are sex and colorblindness indepdendent?
+Are sex and colorblindness independent?
 
 
 Multiplication rule
@@ -171,11 +179,11 @@ Suppose:
 
 If you get a positive test result, what is the probability you have the disease?
 
-Indepdence and conditional probabilities
+Independence and conditional probabilities
 ===
 class:vert
 
-What would an indepdence statement look like in the setting of conditional probabilities?
+What would an independence statement look like in the setting of conditional probabilities?
 
 
 Types of probabilities
