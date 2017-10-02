@@ -202,3 +202,21 @@ $$P(A|B) = \frac{P(A)P(B|A)}{P(B)}$$
 
 * We can justify this with a tree diagram
 * Good for testing hypotheses
+
+Probability distributions
+===
+type:section
+
+An example
+===
+incremental:true
+
+Suppose there's a 52% chance that a couple has a girl, and that birth sexes are indepdent of one another.
+
+What is the sample space, presuming the couple has 3 children?
+
+What is:
+* $P(\text{exactly 0 girls})$?
+* $P(\text{exactly 1 girls})$?
+* $P(\text{exactly 2 girls})$?
+* $P(\text{exactly 3 girls})$?
