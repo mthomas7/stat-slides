@@ -211,7 +211,7 @@ An example
 ===
 incremental:true
 
-Suppose there's a 52% chance that a couple has a girl, and that birth sexes are indepdent of one another.
+Suppose there's a 52% chance that a couple has a girl, and that birth sexes are independent of one another.
 
 What is the sample space, presuming the couple has 3 children?
 
