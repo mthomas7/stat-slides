@@ -35,6 +35,18 @@ If this is true, and $X$ is the number of "successes" in $n$ trials:
 * we say $X$ is distributed Binomially
 * and write $X \sim Bin(n,p)$ or $X \sim B(n,p)$
 
+Examples?
+===
+incremental:true
+
+* X is the proportion of people in a random sample in favor of stem cell research.
+* X is the number of people in favor of stem cell research in a random sample of 500 people.
+* X is the number of failures in 4 dental implants, if each one has a 5% probability of failing.
+* X is the number of bad apples in a delivery from a farm
+* X is the average glucose level in the blood of a random sample of 50 people
+* X is the number of accidents on a stretch of road in 24 hours.
+* X is the number of cases of flu in a family of 4 in a winter
+
 R Code
 ===
 R can calculate these probabilities:
