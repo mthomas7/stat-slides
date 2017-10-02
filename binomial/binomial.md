@@ -56,7 +56,7 @@ Sickle cell anemia is a disease in which the blood produces abnormal hemoglobin.
 
 Suppose both parents are carriers.
 
-Will the distribution of the number of children with sickle cell anemia in a family with 2 children be Binomially distirbuted?
+Will the distribution of the number of children with sickle cell anemia in a family with 2 children be Binomially distributed?
 
 Graph the probability distribution.
 
