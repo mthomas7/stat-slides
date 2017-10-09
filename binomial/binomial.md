@@ -3,6 +3,8 @@ The Binomial Distribution
 author: Math 145
 date:
 autosize: false
+width:1920
+height:1080
 
 Building on the last example... 
 ===
@@ -60,9 +62,22 @@ dbinom(1,3,.5)
 [1] 0.375
 ```
 
-(There are other binom commands)
+There are other binom commands - let's figure them out.
 
-Sickle cell anemia
+A Plot
+===
+What does this plot tell us?
+
+
+```r
+x <- 1:50
+y <- dbinom(x, 50, .23)
+plot(y~x, type="h")
+```
+
+![plot of chunk unnamed-chunk-2](binomial-figure/unnamed-chunk-2-1.png)
+
+Sickle Cell Anemia
 ===
 Sickle cell anemia is a disease in which the blood produces abnormal hemoglobin. Some people are carriers of the disease and produce both normal and abnormal hemoglobin. They are generally healthy, but if two carriers have a child, the child has a 25% probability of having the disease. Assume siblings having the disease are independent events.
 
@@ -101,7 +116,4 @@ More questions
 ===
 What are the chances I make *at least* 12 shots? Or fewer than 10 shots?
 
-This seems hard.
-
-R can do this too
-===
+This seems hard. But we can go back to R for this.
