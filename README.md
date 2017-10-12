@@ -6,3 +6,5 @@
 * [Numerical Variables](./numerical/numerical.html)
 * [Categorical Variables](./categorical/categorical.html)
 * [Probability](./probability/probability.html)
+* [Binomial](./binomial/binomial.html)
+* [Normal](./normal/normal.html)
