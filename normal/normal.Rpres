@@ -94,7 +94,9 @@ Women’s heights are normally distributed with mean 65 inches (165 cm) and stan
 * Approiximately what proportion is more than 72 inches? (6ft)
 * What if we want to know a different number? More than 63 inches?
 
-We can use a table or we can use R
+We can use a table or we can use R, r-fiddle.org
+
+Notation: $N(\mu, \sigma)$
 
 Using z-scores
 ===
