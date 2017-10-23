@@ -2,7 +2,8 @@ The Normal Distribution
 ========================================================
 author: Math 145
 date: 
-autosize: true
+autosize: false
+width: 1080
 
 Distributions
 ===
@@ -16,8 +17,10 @@ incremental:true
 The histogram shows the actual vocabulary scores of a group of 7-th grade children.
 
 <center>
-<img src="1.png" height=600>
+<img src="1.png" height=400>
 </center>
+
+***
 
 What do you notice?
 
@@ -29,6 +32,8 @@ Features
 <center>
 <img src="1.png" height=600>
 </center>
+
+***
 
 * Symmetric
 * Bunched around a central value
@@ -102,8 +107,11 @@ SD      | 112     | 116  | 111
 
 Using z-scores
 ===
+
 Reading z = 0.71
+
 Math z = 0.69
+
 Writing z = 0.74
 
 Finding proportions from z-scores
@@ -280,6 +288,8 @@ summary(ChickWeight)
                                  (Other):506          
 ```
 
+===
+
 ```r
 favstats(~weight, data=ChickWeight)
 ```
@@ -296,7 +306,7 @@ favstats(~weight, data=ChickWeight)
 histogram(~weight, data=ChickWeight)
 ```
 
-![plot of chunk unnamed-chunk-14](normal-figure/unnamed-chunk-14-1.png)
+![plot of chunk unnamed-chunk-15](normal-figure/unnamed-chunk-15-1.png)
 
 ***
 
@@ -305,4 +315,4 @@ histogram(~weight, data=ChickWeight)
 qqnorm(ChickWeight$weight)
 ```
 
-![plot of chunk unnamed-chunk-15](normal-figure/unnamed-chunk-15-1.png)
+![plot of chunk unnamed-chunk-16](normal-figure/unnamed-chunk-16-1.png)
