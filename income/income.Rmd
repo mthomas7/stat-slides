@@ -1,7 +1,6 @@
 ---
 title: "Normal Income?"
-author: "Math 144"
-date: "February 23, 2016"
+author: "Math 145"
 output: 
   ioslides_presentation: 
     incremental: yes
