@@ -58,11 +58,11 @@ What is the formula for the margin of error?
 The "Usual" Defintion
 ===
 Confidence interval:
-$$\hat{p} \pm z^* S.E. = \hat{p} \pm z^* \sqrt{p(1-p)}{n}$$
+$$\hat{p} \pm z^* S.E. = \hat{p} \pm z^* \sqrt{\frac{p(1-p)}{n}}$$
 
 or
 
-$$(\hat{p}-z^* S.E.,\hat{p}+z^* S.E.) = (\hat{p}-z^* \sqrt{p(1-p)}{n},\hat{p}+z^* \sqrt{p(1-p)}{n})$$
+$$(\hat{p}-z^* S.E.,\hat{p}+z^* S.E.) = (\hat{p}-z^* \sqrt{\frac{p(1-p)}{n}},\hat{p}+z^* \sqrt{\frac{p(1-p)}{n}})$$
 
 How do we make sense of the $z^*$?
 
