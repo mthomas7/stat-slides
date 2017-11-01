@@ -55,7 +55,31 @@ Margin of error - this is the distance from the point estimate to the ends of th
 
 What is the formula for the margin of error?
 
+The "Usual" Defintion
+===
+Confidence interval:
+$$\hat{p} \pm z^* S.E. = \hat{p} \pm z^* \sqrt{p(1-p)}{n}$$
+
+or
+
+$$(\hat{p}-z^* S.E.,\hat{p}+z^* S.E.) = (\hat{p}-z^* \sqrt{p(1-p)}{n},\hat{p}+z^* \sqrt{p(1-p)}{n})$$
+
+How do we make sense of the $z^*$?
+
 What can we change
 ===
-* n
-* p?
+* $n$?
+* $p$?
+* $\hat{p}$?
+* $z^*$?
+
+Sample Size Calculations
+===
+What if we want a specific margin of error. Can we select $n$ before we conduct the experiment?
+
+Confidence Intervals for Testing Claims
+===
+
+* Suppose you want to test a claim that 52% of students like the food on campus.
+* You sample 150 people, and find that 48% of the sample likes the food.
+* What can we conclude?
