@@ -1,4 +1,4 @@
-Statistical Confidence
+Statistical Confidence - Proportions
 ========================================================
 author: Math 145
 date: 
@@ -48,3 +48,9 @@ Estimates
 ===
 * Point estimates vs interval estimates
 * Interval estimates are usually 95%, we'll make 80% now
+
+Terms
+===
+Margin of error - this is the distance from the point estimate to the ends of the confidence interval
+
+What is the formula for the margin of error?
