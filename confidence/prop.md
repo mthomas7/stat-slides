@@ -54,3 +54,8 @@ Terms
 Margin of error - this is the distance from the point estimate to the ends of the confidence interval
 
 What is the formula for the margin of error?
+
+What can we change
+===
+* n
+* p?
