@@ -8,3 +8,6 @@
 * [Probability](./probability/probability.html)
 * [Binomial](./binomial/binomial.html)
 * [Normal](./normal/normal.html)
+* [Income](./income/income.html)
+* [Confidence Intervals - Proportions](./confidence/prop.html)
+* [Confidence Intervals - Means](./confidence/means.html)

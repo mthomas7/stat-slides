@@ -28,7 +28,7 @@ What *would* the distribution look like?
 What do we get
 ===
 * This is a sampling distribution for $\bar{x}$
-* It should look nearly normal
+* It should look nearly normal (Central limit theorem)
 * The mean of the distribution will be $\mu$
 * The standard deviation will be
 
@@ -46,3 +46,9 @@ Confidence interval
 * What's the standard error?
 * What's the margin of error?
 
+A Confidence Interval As A Test
+===
+* An $\alpha$ level is stated *before* data is collected to determine a level of acceptable risk in the test (we'll be more specific about this later).
+* If you make a 95% CI, $\alpha=0.05$
+* If you make a 99% CI, $\alpha=0.01$
+* In general, is the level of confidence is $X$, $\alpha=1-X$
