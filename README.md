@@ -1,4 +1,4 @@
-# Stat-slides
+## Slides from math 145
 
 * [Intro](./intro/intro.html)
 * [Data](./data/data.html)
