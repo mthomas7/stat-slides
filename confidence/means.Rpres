@@ -20,14 +20,29 @@ Grab A Deck
 - How many cards should we draw?
 - How should we draw them?
 - Draw that many, then calculate the mean, we'll record this
-- Do this 10 times
-- What if we drew a different number?
-- How would this change the distribution?
 
 Let's draw the distribution
 ===
+What *would* the distribution look like?
 
 What do we get
 ===
 * This is a sampling distribution for $\bar{x}$
 * It should look nearly normal
+* The mean of the distribution will be $\mu$
+* The standard deviation will be
+
+$$\frac{\sigma}{\sqrt{n}} \textrm{ (Standard error)}$$
+
+Assumptions
+===
+* Observations independent ($<10\%$ of population)
+* Samples size $\geq 30$ (rule of thumb)
+* Data not strongly skewed
+
+Confidence interval
+===
+* What's the formula for a 95% confidence interval for means?
+* What's the standard error?
+* What's the margin of error?
+
