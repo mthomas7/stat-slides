@@ -83,3 +83,12 @@ Confidence Intervals for Testing Claims
 * Suppose you want to test a claim that 52% of students like the food on campus.
 * You sample 150 people, and find that 48% of the sample likes the food.
 * What can we conclude?
+
+A Quote
+===
+
+from: https://www.vox.com/policy-and-politics/2017/11/2/16593620/republicans-unfazed-corporate-tax-cut-polls
+
+Tara Golshan: Right now, these numbers are showing about 53 percent of Republicans either want [the corporate tax rate] to be raised or stay the same. When selling this idea, do you see that as becoming a problem?
+
+Lee Zeldin: What I have come in contact with would reflect different numbers. So it would be interesting to see an accurate poll of 100 million Americans. But sometimes the polls get done of 1,000 [people].

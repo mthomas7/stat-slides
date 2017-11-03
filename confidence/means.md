@@ -52,3 +52,4 @@ A Confidence Interval As A Test
 * If you make a 95% CI, $\alpha=0.05$
 * If you make a 99% CI, $\alpha=0.01$
 * In general, is the level of confidence is $X$, $\alpha=1-X$
+
