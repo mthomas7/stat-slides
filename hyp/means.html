@@ -802,26 +802,10 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>A Confidence Interval As A Test</h3>
+<h3>Means</h3>
 <div class="slideContent" >
 <ul>
-<li>An \( \alpha \) level is stated <em>before</em> data is collected to determine a level of acceptable risk in the test (we&#39;ll be more specific about this later).</li>
-<li>If you make a 95% CI, \( \alpha=0.05 \)</li>
-<li>If you make a 99% CI, \( \alpha=0.01 \)</li>
-<li>In general, is the level of confidence is \( X \), \( \alpha=1-X \)</li>
-</ul>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>What is a hypothesis test?</h3>
-<div class="slideContent" >
-<ul>
-<li>We compare two hypotheses</li>
-<li>These are called the null hypothesis (\( H_0 \)) and the alternative hypothesis (\( H_A \))</li>
-<li>\( H_0 \) is always the claim we are testing</li>
-<li>\( H_A \) is the/a alternative to that hypothesis</li>
+<li>This process will be very similar to hypothesis testing with proportions</li>
 </ul>
 
 </div>
@@ -830,53 +814,35 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Example</h3>
 <div class="slideContent" >
-<p>During the Mozambique trial of a potential malaria vaccine, the effect of the drug was measured on:</p>
-
 <ul>
-<li>The number of children infected</li>
-<li>The length of time until infection</li>
+<li><p>US traffic police often use radar to catch drivers speeding. To alert them to the presence of police radar,
+some drivers mount radar detectors in their cars. This has led to a debate: Are radar detectors a useful
+reminder to stay within the speed limit, or are they simply a way of avoiding police detection?</p></li>
+<li><p>How can we set this question up as a hypothesis test? What is \( H_0 \)? What is \( H_A \)?</p></li>
 </ul>
 
-<p>Are the variables quantitative? Or categorical?</p>
+</div>
 
-<p>Without the drug, the rate of severe malaria infection in the area of the study was 34.9 children per 1000. Of 745 children given the drug, 11 got severe malaria during the course of the study. Does this data suggest that the drug reduces the rate of severe malaria infections?</p>
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>The Study</h3>
+<div class="slideContent" >
+<ul>
+<li>A study in Maryland found that a sample of 22 cars with radar detectors slowed down an average of 11
+mph in the presence of radar. Suppose that the speed reduction of individual cars was normally distributed
+with standard deviation 2 mph.</li>
+</ul>
 
 <p><small>
-“Efficacy of the RTS,S/AS202A vaccine against Plasmodium falciparum infection and disease in young African children: randomized
-controlled trial” by P. Alonso et al, The Lancet, Oct 16, 2004.
+<a href="http://www.afn.org/nafn09444/scanlaws/">www.afn.org/nafn09444/scanlaws/</a>
 </small></p>
 
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Solution</h3>
-<div class="slideContent" >
-<p>Note that 34.9/1000 = 0.0349 = 3.49%. This is the infection rate for the untreated population.</p>
-
-<p>Let \( p \) be the proportion of treated children in the population who get sick if we treated all of them.</p>
+<ul>
+<li>How can we use this data to help us answer the question?
 
 <ul>
-<li>Step 1
-
-<ul>
-<li>Null hypothesis: We assume drug does not work: \( H_0: p=0.0349 \)
-
-<ul>
-<li>Proportion of treated population getting sick = Proportion of untreated population getting sick = 0.0349.</li>
-</ul></li>
-<li>Alternative hypothesis: Assume the drug works, we have a choice here
-
-<ul>
-<li>One sided test / one tailed test: The drug decreases the proportion of people who are sick, \( H_A: p<0.0349 \)</li>
-<li>Two sided test / two tailed test: The drug changes the proportion of people who are sick, \( H_A: p \neq 0.0349 \)</li>
-<li>The CIs we&#39;ve been creating are equivalent to two-tailed tests</li>
-</ul></li>
-</ul></li>
-<li>Step 2
-
-<ul>
-<li>Find your \( \hat{p} \), SE, ME, CI</li>
+<li>Construct a 95% CI for the drop in speeds among all cars</li>
+<li>What does this tell us?</li>
 </ul></li>
 </ul>
 
@@ -884,36 +850,28 @@ controlled trial” by P. Alonso et al, The Lancet, Oct 16, 2004.
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Continued</h3>
+<h3>Sampel size</h3>
 <div class="slideContent" >
-<ul>
-<li>Step 3
-
-<ul>
-<li>Interpret (draw a picture)</li>
-</ul></li>
-<li>Step 4
-
-<ul>
-<li>Make a conclusion about the hypotheses - reject \( H_0 \) or fail to reject \( H_0 \)</li>
-</ul></li>
-</ul>
+<p>What sample size would be needed to have a ME of 0.5 mph? (Keeping a 95% CI)</p>
 
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Another example</h3>
+<h3>Returning to the malaria drug</h3>
 <div class="slideContent" >
-<ul>
-<li class="fragment">A reporter in 2003 stated 2/3 population were in favor of sending troops to Iraq.
+<p>Before the drug trial, the average length
+of time before a child in the population got malaria was 89 days with standard deviation 41 days.
+During the experiment, 724 children were treated with the drug and their average length of time until
+infection of was 97.5 days.</p>
+
+<p>How can we frame our hypothesis tests?</p>
+
+<p>This can be framed as whether the change from 89 to 97.5 days is a <em>statistically significant</em> change at the \( \alpha=0.05 \) level.</p>
 
 <ul>
-<li class="fragment">How would we test this claim?</li>
-</ul></li>
-<li class="fragment">In 2003, a February 24-26 CNN poll of 1004 Americans found that 59% supported sending
-troops to Iraq.</li>
-<li class="fragment">Conduct a two-tailed hypothesis test for the claim made by the reporter, using \( \alpha=0.1 \)</li>
+<li>\( H_0 \)?</li>
+<li>\( H_A \)?</li>
 </ul>
 
 </div>

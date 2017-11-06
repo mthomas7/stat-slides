@@ -45,5 +45,3 @@ Confidence interval
 * What's the formula for a 95% confidence interval for means?
 * What's the standard error?
 * What's the margin of error?
-
-

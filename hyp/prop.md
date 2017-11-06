@@ -30,6 +30,8 @@ Are the variables quantitative? Or categorical?
 
 Without the drug, the rate of severe malaria infection in the area of the study was 34.9 children per 1000. Of 745 children given the drug, 11 got severe malaria during the course of the study. Does this data suggest that the drug reduces the rate of severe malaria infections?
 
+Population? Sample? Statistic? Parameter?
+
 <small>
 “Efficacy of the RTS,S/AS202A vaccine against Plasmodium falciparum infection and disease in young African children: randomized
 controlled trial” by P. Alonso et al, The Lancet, Oct 16, 2004.
