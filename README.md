@@ -11,3 +11,5 @@
 * [Income](./income/income.html)
 * [Confidence Intervals - Proportions](./confidence/prop.html)
 * [Confidence Intervals - Means](./confidence/means.html)
+* [Hypothesis Testing - Proportions](./hyp/prop.html)
+* [Hypothesis Testing - Means](./hyp/means.html)

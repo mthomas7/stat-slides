@@ -46,10 +46,4 @@ Confidence interval
 * What's the standard error?
 * What's the margin of error?
 
-A Confidence Interval As A Test
-===
-* An $\alpha$ level is stated *before* data is collected to determine a level of acceptable risk in the test (we'll be more specific about this later).
-* If you make a 95% CI, $\alpha=0.05$
-* If you make a 99% CI, $\alpha=0.01$
-* In general, is the level of confidence is $X$, $\alpha=1-X$
 
