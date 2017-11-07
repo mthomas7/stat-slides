@@ -9,6 +9,19 @@ Means
 ===
 * This process will be very similar to hypothesis testing with proportions
 
+An Improvement: The t-distribution
+===
+* We made an assumption: that $\sigma$ and $s$ were the same.
+* If we use $s$, we can get better results by using a distribution which allows for variation in the standard deviation due to sampling variation
+* The t-distribution requires "degrees of freedom"
+    * This is given by 
+* The t-statistic is given by almost the same formula as z:
+$$t = \frac{\bar{x}-\mu}{s/\sqrt{n}}$$
+(z would be the same formula but with $\sigma$ instead of $s$)
+* How do the z and t distrbutions differ?
+    * Let's look at the tables - the t-table is a little different because of the degrees of freedom
+* If we use the t-distribution instead of the normal (z) distribution, how do we change our formula for confidence intervals?
+
 Example
 ===
 * US traffic police often use radar to catch drivers speeding. To alert them to the presence of police radar,
