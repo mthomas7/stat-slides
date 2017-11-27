@@ -21,7 +21,7 @@ Hypothesis Testing
 ===
 * Always testing against the null hypothesis
 
-* ![hyptest](null hypothesis.png)
+![hyptest](nullhypothesis.png)
 
 The p-value
 ===
