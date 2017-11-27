@@ -1,4 +1,4 @@
-P Values
+P Values and t-tests
 ========================================================
 author: Math 145
 date: 
@@ -9,3 +9,47 @@ CIs
 ===
 * So far, we have framed hypothesis tests through the lens of confidence intervals
 * There is a mirror way to answer the same questions
+
+Gas Mileage
+===
+A gasoline additive claims to increase the average mileage of a certain type of car from the usual 24 miles per gallon. A store owner wants to test this claim, and if there is convincing evidence that the mean is greater than 24, he will stock this additive. He finds that the mean mileage of a sample of 45 cars using the additive is 24.7 miles per gallon with standard deviation of 2.3 miles per gallon. Using a significance level of 0.05, decide whether the store should the store stock this additive.
+
+* 1-tail (1-sided) vs 2-tail (2-sided tests)
+* Software vs table
+
+Hypothesis Testing
+===
+* Always testing against the null hypothesis
+
+* ![hyptest](null hypothesis.png)
+
+The p-value
+===
+incremental:true
+* What does this p-value really tell us?
+  * Assuming the null hypothesis is true, what is the probability of getting the result we got or more extreme
+  * The meaning of *extreme* depends on whether we do a 1-sided or 2-sided test
+
+Errors
+===
+* We are always taking a chance of making an error. What is the $\alpha$-level telling us?
+* Type I error is incorrectly rejecting a true null hypothesis (a "false positive")
+* Type II error is failing to reject a false null hypothesis (a "false negative")
+* What would this look like in our examples?
+
+===
+
+![errors](type1type2.jpg)
+
+Statistical Significance vs Practical Significance
+===
+* Practical Significance
+  * even if the increase in scores is statistically significant, it may not be of practical significance.
+  * e.g. What does a gain of 25 points *mean*?
+  
+Types of t-tests
+===
+* We did a one-sample t-test, compared it to a hypothetical mean
+* We might want to compare two values to each other
+  * These can be *paired* or not paired
+  * Called a paired t-test or a 2-sample t-test
