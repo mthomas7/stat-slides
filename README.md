@@ -14,3 +14,4 @@
 * [Hypothesis Testing - Proportions](./hyp/prop.html)
 * [Hypothesis Testing - Means](./hyp/means.html)
 * [P Values](./hyp/pval.html)
+* [Misc tests](./hyp/misc.html)
