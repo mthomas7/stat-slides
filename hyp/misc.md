@@ -362,6 +362,20 @@ Residuals are the errors for each term
 
 What do these values look like graphically?
 
+Residuals
+===
+
+
+```r
+model1 <- lm(Number.of.apps.on.phone~Number.of.ounces.of.water.drunk.per.day, data=class)
+histogram(~model1$residuals)
+```
+
+***
+
+![plot of chunk unnamed-chunk-12](misc-figure/unnamed-chunk-12-1.png)
+
+
 Conditions for least squares line
 ===
 
