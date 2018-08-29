@@ -1,7 +1,7 @@
 ---
 title: "Math 145"
 author: "Stats"
-date: "August 30, 2017"
+date: "August 29, 2018"
 output: ioslides_presentation
 ---
 
@@ -16,13 +16,19 @@ output: ioslides_presentation
 Introduce your new friend to a new pair of neighbors
 
 ## Logistics
-- Sakai
+- Haiku
+- Edfinity
 - Slides
-- Textbook
+- Textbook(s)
 - R
 
 ## Where do we start?
 * What is Statistics?
+* What is data?
+
+## Data Science?!?!
+
+## Thinking about probabilities
 * What does is mean when you hear that there is a 20% chance of rain?
 
 ## Kidney Cancer Rates
