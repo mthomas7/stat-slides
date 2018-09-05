@@ -1,7 +1,7 @@
 ---
 title: "Math 145"
 author: "Stats"
-date: "August 29, 2018"
+date: "Fall 2018"
 output: ioslides_presentation
 ---
 
