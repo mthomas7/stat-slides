@@ -53,6 +53,7 @@ How do we measure a person's handedness?
 Suppose you are conducting a test on a webpage redesign. You create two versions, randomly showing the different versions to different people. You measure how much time each person spends on the page, how many links they click on, and their operating system.
 
 What are the:
+
 * Cases?
 * Variables?
 
@@ -61,6 +62,7 @@ What are the:
 You are studying the effects of temperature on frog jumping height. You find 37 frogs, put them in rooms with different temperatures, and measure their jumping height as well as their leg length, sex, and approximate age.
 
 What are the:
+
 * Cases?
 * Variables?
 
