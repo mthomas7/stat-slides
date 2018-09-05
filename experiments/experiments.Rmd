@@ -1,0 +1,221 @@
+---
+title: "Experiments"
+author: "Math 145"
+date: "Fall 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+require(knitr)
+```
+
+## Experiment and observation
+
+What's the difference?
+
+
+## Sampling
+
+We're doing an experiment on students in 145, trying to determine average number of hours slept per night.
+
+- What would a simple random sample look like?
+- What would a stratified sample look like?
+- What would a cluster sample look like?
+- Multistage?
+
+## An Example
+
+You want to know the caloric intake of MLB players. You survey 3 players from each team. This is:
+
+A. Simple random sampling
+
+B. Stratified sampling
+
+C. Cluster sampling
+
+D. Multistage sampling
+
+## An Example
+
+You want to know the caloric intake of MLB players. You survey 2 entire teams. This is:
+
+A. Simple random sampling
+
+B. Stratified sampling
+
+C. Cluster sampling
+
+D. Multistage sampling
+
+
+## An Example
+
+You want to know the caloric intake of MLB players. You survey 3 players from each of 7 randomly chosen team. This is:
+
+A. Simple random sampling
+
+B. Stratified sampling
+
+C. Cluster sampling
+
+D. Multistage sampling
+
+
+## Association vs causation
+
+What's the difference?
+
+## Association vs causation
+
+>* Ice cream sales and shark attacks
+>* Children with larger shoe sizes read better
+>* Countries with more TV sets per person have longer life expectancy
+>* Study time and test scores
+
+## Another example
+
+<div align="center">
+<img src="correlation.png" width=800>
+</div>
+
+## Distracted drivers
+
+Are drivers more distracted when using a cell phone than when talking to a passenger in the car?  Researchers wanted to find out, so they designed an experiment.  Here are the details.
+
+In a study involving 48 people, 24 people were randomly assigned to drive in a driving simulator while using a cell phone. The remaining 24 were assigned to drive in the driving simulator while talking to a passenger in the simulator. Part of the driving simulation for both groups involved asking drivers to exit the freeway at a particular exit. In the study, 7 of the 24 cell phone users missed the exit, while 2 of the 24 talking to a passenger missed the exit.  (from the 2007 AP* Statistics exam, question 5)
+
+
+***
+Let’s start by summarizing the data from this study.  Each of the 48 people in the experiment can be classified into one of the four cells in the table below based on the experimental condition to which they were assigned and whether they missed the designated exit.  Use information from the previous paragraph to complete the table.
+
+|              |     | Distraction |           |
+|--------------|-----|-------------|-----------|
+|              |     | Cell phone  | Passenger |
+| Missed exit? | Yes |             |           |
+|              | No  |             |           |
+
+
+## How could we visualize these data?
+
+
+## What are the proportions of each group?
+
+(And why is this a badly posed question?)
+
+## What if it didn't make a difference?
+
+- What would we expect then?
+- What would happen if we reassigned the 48 people in this experiment to the cell phone and passenger groups many times, assuming that the group assignment had no effect on whether each driver missed the exit?  Let’s try it and see.
+
+## The Plan
+
+We need 48 cards to represent the 48 drivers in this study.  In the original experiment, 9 people missed the exit and 39 people didn't miss the exit.  If the group assignment had no effect on drivers' distraction, these results wouldn't change if we reassigned 24 people to each group at random.  For a physical simulation of these reassignments, we need 9 cards to represent the people who will miss the exit and 39 cards to represent the people who won’t miss the exit.  With your group members, discuss which cards should represent which outcomes.  When you have settled on a plan, designate one member of your group to share your plan with the class.  
+
+## Experiment
+
+Now you’re ready to simulate the process of reassigning people to groups.  “Shuffle up and deal” two piles of 24 cards—the first pile representing the cell phone group and the second pile representing the passenger group.  Record the number of drivers who missed the exit in each group.
+
+## More Experimenting
+
+Repeat this process 9 more times so that you have a total of 10 trials.  Record your results in a table.
+
+| Trial | Number who missed exit in cell phone group | Number who missed exit in passenger group |
+|:-----:|:------------------------------------------:|:-----------------------------------------:|
+|   1   |                                            |                                           |
+|   2   |                                            |                                           |
+|   3   |                                            |                                           |
+|   4   |                                            |                                           |
+|   5   |                                            |                                           |
+|   6   |                                            |                                           |
+|   7   |                                            |                                           |
+|   8   |                                            |                                           |
+|   9   |                                            |                                           |
+|   10  |                                            |                                           |
+
+
+
+## Compare
+
+In the original experiment, 7 of the 24 drivers using cell phones missed the freeway exit, compared to only 2 of the 24 drivers who were talking to a passenger.  How surprising would it be to get a difference this large or larger simply due to chance if the effects of the two experimental conditions on drivers’ distraction were actually the same?  You can estimate the chance of this happening with the results of your simulation.
+
+In how many of your 10 simulation trials did 7 or more drivers in the cell phone group miss the exit?  Why don’t you need to consider the number of people in the “talking to a passenger group” who missed the exit?
+
+***
+
+Combine results with your classmates.  In what percent of the class’s simulation trials did 7 or more people in the cell phone group miss the freeway exit?
+
+Based on the class’s simulation results, do you think it’s possible that cell phones and passengers are equally distracting to drivers, and that the difference observed in the original experiment could have been due to the chance assignment of people to the two groups?  Why or why not?
+
+
+## Our results
+
+Here are the results of 1000 trials of a computer simulation, like the one you did with the playing cards, showing the number of drivers who missed the exit in the cell phone group.
+
+***
+
+![](Rplot1.png)
+
+***
+
+* How do we decide what is "surprising?"
+* What do we compare our results to?
+
+## How long until we draw a red card?
+
+How many draws will it take to draw the first red card?
+
+## How do we decide if a die is fair?
+
+
+## What's the same
+
+We're always comparing a potential model with the data we're getting, and deciding whether out model is reasonable.
+
+
+## Interpreting experiments
+
+To investigate the safety of the anesthetics used in surgery, records from 850,000 operations in 34
+major hospitals were examined. The death rates for four common anesthetics are shown in the table.
+
+| Anesthetic | A    | B    | C    | D    |
+|------------|------|------|------|------|
+| Death Rate | 1.7% | 1.7% | 3.4% | 1.7% |
+
+Which is the explanatory variable and which is the response variable?
+
+Observational or experimental study?
+
+Which hospital would you go to?
+
+
+## The Physicians’ Health Study (1980-1995)
+
+A longitudinal study of the effect of aspirin and beta
+carotene on heart attacks. 2 In the study, 21,996 male physicians were randomly divided into four equal
+groups and given pills or placebos of aspirin and beta carotene (real versions of both, just one, or neither).
+The result was that 239 of the aspirin placebo group and 139 of the aspirin group had heart attacks. 3 Was
+this an observational study or an experiment? What can you conclude from it?
+
+## Example
+
+A Sept 2006 article 4 , “Vitamin D halves the risk of pancreatic cancer,” reported on the work scientists
+at Northwestern and Harvard who examined data from two long-term health studies of 46,771 men and
+75,427 women. They found that people who took vitamin D had a 43% lower risk of pancreatic cancer.
+Comment.
+
+## Experimenter and Hawthorne effects
+
+The experimenter effect occurs when the experimenter influences the result of the experiment (by
+accident). The Hawthorne effect occurs when the subjects respond differently just because they are part of
+an experiment. Both can be eliminated by using a placebo.
+
+## Blinding
+
+In 2007, doctors in Germany showed that people who ate a small amount of dark chocolate each day had lower blood pressure than those who ate white chocolate. What kind of blinding was possible?
+
+## Associations
+
+Positive vs negative associations, linear and non-linear
+
+[Spurious correlations](http://www.tylervigen.com/spurious-correlations)
