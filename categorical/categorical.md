@@ -42,78 +42,63 @@ Frequency tables
 ===
 
 ```r
-tally(exerany~hlthplan, data=cdc)
+cdc %>% 
+  group_by(exerany, hlthplan) %>% 
+  count()
 ```
 
 ```
-       hlthplan
-exerany     0     1
-      0   851  4235
-      1  1673 13241
+# A tibble: 4 x 3
+# Groups:   exerany, hlthplan [4]
+  exerany hlthplan     n
+    <int>    <int> <int>
+1       0        0   851
+2       0        1  4235
+3       1        0  1673
+4       1        1 13241
 ```
+
+Big Frequency Tables
+===
+
+```r
+cdc %>% 
+  group_by(exerany, hlthplan, genhlth) %>% 
+  count()
+```
+
+```
+# A tibble: 20 x 4
+# Groups:   exerany, hlthplan, genhlth [20]
+   exerany hlthplan genhlth       n
+     <int>    <int> <fct>     <int>
+ 1       0        0 excellent   118
+ 2       0        0 fair        173
+ 3       0        0 good        333
+ 4       0        0 poor         55
+ 5       0        0 very good   172
+ 6       0        1 excellent   644
+ 7       0        1 fair        684
+ 8       0        1 good       1398
+ 9       0        1 poor        329
+10       0        1 very good  1180
+11       1        0 excellent   341
+12       1        0 fair        212
+13       1        0 good        521
+14       1        0 poor         44
+15       1        0 very good   555
+16       1        1 excellent  3554
+17       1        1 fair        950
+18       1        1 good       3423
+19       1        1 poor        249
+20       1        1 very good  5065
+```
+
 
 Contingency Tables
 ===
+Counts vs percentages
 
-```r
-tally(exerany~hlthplan, data=cdc, format="count")
-```
-
-```
-       hlthplan
-exerany     0     1
-      0   851  4235
-      1  1673 13241
-```
-
-```r
-tally(exerany~hlthplan, data=cdc, format="percent")
-```
-
-```
-       hlthplan
-exerany        0        1
-      0 33.71632 24.23323
-      1 66.28368 75.76677
-```
-
-```r
-tally(exerany~hlthplan, data=cdc, format="count", margins=TRUE)
-```
-
-```
-       hlthplan
-exerany     0     1
-  0       851  4235
-  1      1673 13241
-  Total  2524 17476
-```
-
-More tables
-===
-
-```r
-tally(exerany~hlthplan, data=cdc, format="count", margins=FALSE)
-```
-
-```
-       hlthplan
-exerany     0     1
-      0   851  4235
-      1  1673 13241
-```
-
-```r
-tally(exerany~hlthplan, data=cdc, format="percent", margins=TRUE)
-```
-
-```
-       hlthplan
-exerany         0         1
-  0      33.71632  24.23323
-  1      66.28368  75.76677
-  Total 100.00000 100.00000
-```
 (Can look at either row or column proportions)
 
 Bar Graphs
@@ -124,33 +109,45 @@ Bar Graphs
 ===
 
 ```r
-bargraph(~exerany, data=cdc)
+cdc %>% 
+  ggplot(aes(x = exerany))+
+  geom_bar()
 ```
 
-<img src="categorical-figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="980" />
+<img src="categorical-figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="980" />
 ***
 
 ```r
-bargraph(~exerany, data=cdc, type="proportion")
+cdc %>% 
+  group_by(exerany) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(perc = n/sum(n)) %>% 
+  ggplot(aes(x = exerany, y = perc))+
+  geom_bar(stat= "identity")
 ```
 
-<img src="categorical-figure/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="1000" />
+<img src="categorical-figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="1000" />
 
 More Bar Graphs
 ===
 
 ```r
-bargraph(~exerany, group=gender, data=cdc)
+cdc %>% 
+  ggplot(aes(x = exerany, fill=gender))+
+  geom_bar()
 ```
 
-<img src="categorical-figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="980" />
+<img src="categorical-figure/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="980" />
 ***
 
 ```r
-bargraph(~exerany|gender, data=cdc)
+cdc %>% 
+  ggplot(aes(x = exerany, fill=gender))+
+  geom_bar(position= "dodge")
 ```
 
-<img src="categorical-figure/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="980" />
+<img src="categorical-figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="980" />
 
 Pie Graphs
 ===
