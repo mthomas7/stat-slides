@@ -41,22 +41,28 @@ author: Math 145
 date: 
 autosize: false
 
-Project groups
+Project
 ===
 class:small-code
 
-test
 
+<!--
 Monty Hall
 ===
 
 <center>
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/OBpEFqjkPO8" frameborder="0" allowfullscreen></iframe>
 </center>
+-->
 
-Cards
+Questions
 ===
-If I show you a yellow, what is the probability the other side is yellow?
+
+* Monty hall problem
+
+* If I show you a blue, what is the probability the other side is blue?
+
+* If I show you a card, what's the probability the other side is the same color?
 
 Probability
 ===
