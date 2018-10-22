@@ -1,4 +1,4 @@
-## Slides from math 145
+## Slides from Math 145
 
 * [Intro](./intro/intro.html)
 * [Data](./data/data.html)
