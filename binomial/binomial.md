@@ -62,7 +62,7 @@ dbinom(1,3,.5)
 [1] 0.375
 ```
 
-There are other binom commands - let's figure them out.
+(There are other binom command too)
 
 A Plot
 ===
@@ -117,3 +117,36 @@ More questions
 What are the chances I make *at least* 12 shots? Or fewer than 10 shots?
 
 This seems hard. But we can go back to R for this.
+
+R Code
+===
+
+`pbinom(q,n,prob)` is the probability of *at most* `q` successes out of `n`, with probability of success `prob`
+
+
+```r
+pbinom(1,2,.5)
+```
+
+```
+[1] 0.75
+```
+
+Show by hand why this is 0.75.
+
+Then verify by hand:
+
+
+```r
+pbinom(1,30,0.1)
+```
+
+```
+[1] 0.183695
+```
+
+
+Last "by hand" calculation
+===
+
+I have a 10\% change of making a free throw. If I take 27 shots, what is the probability I make at least one of them?
