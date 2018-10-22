@@ -150,3 +150,7 @@ Last "by hand" calculation
 ===
 
 I have a 10\% change of making a free throw. If I take 27 shots, what is the probability I make at least one of them?
+
+How could we...
+===
+How could we use R to calculate the probability making at least 12 of the 27 shots (10\% chance of success)?

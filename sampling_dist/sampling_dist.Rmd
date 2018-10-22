@@ -1,0 +1,33 @@
+---
+title: "Sampling Distributions"
+author: "Math 145"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Building a sampling distribution
+
+Grab a deck of cards for yourself and a partner. We're going to estimate the mean "value" of the deck.
+
+Aces will be worth 1, facecards worth 11, and numbered cards will be worth their number.
+
+Draw a card, record its value, place it back in the deck. Repeat until you have 10 draws. Average your values.
+
+## Getting a sense of the distribution
+
+> - Who thinks they have a good estimate?
+> - What is the actual value?
+> - Let's build our distribution
+> - What can we tell from the distribution?
+
+## Editing the distribution
+
+Draw what you think the distribution would look like it:
+
+* We had each drawn 20 cards instead of 10?
+* We had each drawn 5 cards instead of 10?
+* The class had 100 people in it?
+* The class had 5 people in it?
