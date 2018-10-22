@@ -1,9 +1,6 @@
 ## Slides from Math 145
 
 
-TEST
-
-
 * [Intro](./intro/intro.html)
 * [Data](./data/data.html)
 * [Experiments](./experiments/experiments.html)
