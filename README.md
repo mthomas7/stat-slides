@@ -7,7 +7,7 @@
 * [Categorical Variables](./categorical/categorical.html)
 * [Probability](./probability/probability.html)
 * [Binomial](./binomial/binomial.html)
-* [Sampling Distributions](./sampling_dist/sampling_dist.html)
+* [Sampling Distributions](./samplingdist/samplingdist.html)
 * [Normal](./normal/normal.html)
 * [Income](./income/income.html)
 * [Confidence Intervals - Proportions](./confidence/prop.html)
