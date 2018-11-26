@@ -19,7 +19,7 @@ An Improvement: The t-distribution
 $$t = \frac{\bar{x}-\mu}{s/\sqrt{n}}$$
 (z would be the same formula but with $\sigma$ instead of $s$)
 * How do the z and t distrbutions differ?
-    * Let's look at the tables - the t-table is a little different because of the degrees of freedom
+    * Using R for t values
 * If we use the t-distribution instead of the normal (z) distribution, how do we change our formula for confidence intervals?
 
 Example
@@ -43,6 +43,8 @@ www.afn.org/nafn09444/scanlaws/
 * How can we use this data to help us answer the question?
     * Construct a 95% CI for the drop in speeds among all cars
     * What does this tell us?
+    
+* How is this different when using a t vs z setup?
 
 Sampel size
 ===
